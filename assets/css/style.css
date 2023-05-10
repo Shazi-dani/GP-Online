@@ -1,5 +1,5 @@
 
- @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 * {
     margin: 0;
@@ -26,10 +26,13 @@ h1, h2 {
     letter-spacing: 1px;
 }
 
+
 #logo {
-    float: left;
+   
     font-size: 280%;
+    float: left;
 }
+
 
 /* navigation links */
 
@@ -37,6 +40,7 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 4px;
 }
+
 #menu, #logo {
     line-height: 75px;
 }
@@ -56,4 +60,72 @@ h1, h2 {
 }
 .active {
     border-bottom: 1px solid #003E53;
+}
+/*main heading*/
+.main-heading {
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #003E53;
+    
+
+}
+.one-third-width-column {
+    width: 33.33%;
+    display: inline-block;
+}
+
+.main-heading-text{
+    color: #003E53;
+    font-size: 1.5rem;
+}
+#heading{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    padding-inline-start: 20px;
+}
+
+
+  .float-left {
+    float: left;
+}
+
+/* hero image*/
+.two-thirds-width-column {
+    display: inline-block;
+}
+
+.float-right {
+    float: right;
+}
+
+img{
+    display: block;
+    border-style: none;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* create zoom effect on image*/
+    animation-name: image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* create a level of zoom for image*/
+@keyframes image-zoom {
+
+    from {
+         transform: scale(1.1);
+    }
+    to {
+
+        transform: scale(1);
+
+    }
+}
+.spacer {
+    clear: both;
 }
