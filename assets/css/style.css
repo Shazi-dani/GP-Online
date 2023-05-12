@@ -28,17 +28,18 @@ h1, h2 {
 
 
 #logo {
-   
-    font-size: 280%;
+   font-size: 280%;
     float: left;
+    margin-left: 20px;
 }
 
 
 /* navigation links */
 
-#menu{
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
+    font-weight: 500px;
 }
 
 #menu, #logo {
@@ -48,6 +49,7 @@ h1, h2 {
     float: right;
     margin-right: 30px;
     list-style-type: none;
+    
 }    
 
 #menu a {
@@ -77,13 +79,16 @@ h1, h2 {
 .main-heading-text{
     color: #003E53;
     font-size: 1.5rem;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: 2px;
 }
 #heading{
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 20px;
+    margin-inline-start: 1em;
     margin-inline-end: 20px;
     padding-inline-start: 20px;
 }
@@ -128,4 +133,116 @@ img{
 }
 .spacer {
     clear: both;
+}
+/* GP booking online*/
+#book-gp {
+
+    font-size: 130%;
+    font-family: 'lato',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+   
+    height: 200px;
+    width: 98%;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+   
+    
+    background-color: rgba(179, 208, 241, 0.7);
+
+    
+}
+.text-center {
+
+    text-align: center;
+}
+.font-size{
+
+    font-size: 2.5rem;
+}
+.font-weight-bold {
+    font-weight: 700;
+}
+/* gp onlinr booking buttons*/
+.gp-booking-buttons{
+    margin-top: 2rem;
+   
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  
+}
+
+.phone-gp {
+
+    text-align: center;
+    background-color: #003E53;
+    color: #fff;
+    border-color: #003E53;
+    text-decoration: none;
+    border: 1px solid transparent;
+
+   display: inline-block;
+    vertical-align: middle; 
+     position: relative;
+    
+
+    cursor: pointer;
+    
+    
+    border-radius: 6.1875rem;
+    line-height:1.5;
+    max-width: 350px;
+   
+    margin-left: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+   
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+   
+
+}
+
+.video-gp {
+
+    text-align: center;
+    background-color: #003E53;
+    color: #fff;
+    border-color: #003E53;
+    text-decoration: none;
+    border: 1px solid transparent;
+
+   display: inline-block;
+    vertical-align: middle; 
+     position: relative;
+
+
+    cursor: pointer;
+    
+    
+    border-radius: 6.1875rem;
+    line-height:1.5;
+    max-width: 350px;
+   
+    margin-left: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+   
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+   
+}
+
+.btn-font {
+    font-size: 1.25rem;
+    font-weight: 500;
 }
