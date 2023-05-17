@@ -60,9 +60,7 @@ h1, h2 {
 #menu a:hover {
     border-bottom: 1px solid #003E53;
 }
-.active {
-    border-bottom: 1px solid #003E53;
-}
+
 /*main heading*/
 .main-heading {
     font-size: 3rem;
@@ -336,5 +334,79 @@ h3 {
 .join-button:hover {
     background-color: #fafafa;
     color:#003E53;
+}
+
+/** register form styling starts here**/
+
+#register-form {
+
+    width: 700px;
+	padding: 25px;
+    background-color: rgba(90, 126, 138, 0.7);
+	border-radius: 8px;
+	margin: 25px auto;
+    align-self: center;
+	
+}
+.block-label {
+	display: block;
+    line-height: 1.6;
+   
+}
+
+label {
+    margin: 10px 15px 5px 0;
+}
+
+input[type=submit] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color:#003E53;
+	color: white;
+	border-radius: 5px;
+}
+
+input[type=reset] {
+
+	margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: white;
+    color: #003E53;
+    border: 1px solid #003E53;
+    border-radius: 5px;
+}
+	
+.gender {
+
+    margin-top: 5px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+	margin: 0 auto;
+    color: #003E53;
+    font-weight: 400;
+}
+
+select {
+    height: 30px;
+    width: 100px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+input[type=tel] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+	margin: 0 auto;
+    color: #003E53;
+    font-weight: 400;
 }
 

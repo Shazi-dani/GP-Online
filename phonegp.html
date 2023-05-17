@@ -18,10 +18,10 @@
     <a href="index.html"><h1 id="logo">GP Online </h1></a>
     <nav>
             <ul id="menu">
-                <li><a href="#">Register</a></li>
+                <li><a href="register.html">Register</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">How it Works</a></li>
-                <li><a href="index.html" class="active">Home</a></li> 
+                <li><a href="index.html">Home</a></li> 
             </ul>
         </nav>
     </header>
@@ -33,7 +33,7 @@
         <p>Fill in the required details asked in the Reservation,
             consultation form then next step would be to register an account, 
             after which you will be asked to pay the consultation fee of
-             <strong class="text-accent">€20-€50</strong> (price may vary based on selected timeslot).
+             <strong>€20-€50</strong> (price may vary based on selected timeslot).
         </p>
         </div>
         <div>
@@ -45,7 +45,7 @@
         </div>
         <div>
             <label for="app-date-time" class="form-control text-input"><strong>Appointment Date & time</strong></label>
-            <input id="app-date-time" type="datetime-local" name="app-date-time">
+            <input id="app-date-time" type="datetime-local" name="app-date-time" required> 
         </div>
         <div>
         <button class="join-button" id="reserve-button" onclick="reserveTimeslot(event)" disabled="disabled">

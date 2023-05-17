@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <meta name="description" content="online gp service in ireland, digital gp, gp in ireland,online doctor,virtual doctor">
+        <meta name="keywords" content="online gp service in ireland, digital gp, gp in ireland,online doctor,virtual doctor">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        
+    <title>Video consultation</title>
+</head>
+<body>
+<!--header start here -->
+
+    <header>
+    <a href="index.html"><h1 id="logo">GP Online </h1></a>
+    <nav>
+            <ul id="menu">
+                <li><a href="register.html">Register</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">How it Works</a></li>
+                <li><a href="index.html">Home</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <div class="spacer"></div>
+<!--registration form starts here-->
+<form id="register-form" action="https://formdump.codeinstitute.net" method="POST">
+
+	<div>
+		<h2>Register here</h2>
+        
+		<div>
+			<label for="name-field" class="block-label"><h3>Full Name</h3></label>
+			<input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+		</div>
+		<div>
+			<label for="email-field" class="block-label"><h3>Email</h3></label>
+			<input id="email-field" type="email" name="email" placeholder="Your email" required>
+		</div>
+        <div>
+            <label for="password" class="block-label"><h3>Password</h3></label>
+            <input id="password" type="password"  name="password" placeholder="Your password" required>
+        </div>
+        <label for="phone" class="block-label"><h3>Phone Number</h3></label>
+        <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+        <div>
+		<label for="age" class="block-label"><h3>Age</h3></label>
+		<select id="age" name="age" required>
+			<option value="under-20">Under 20</option>
+			<option value="20s">20-29</option>
+			<option value="30s">30-39</option>
+			<option value="40s">40-49</option>
+			<option value="50s">50-59</option>
+			<option value="60+">60+</option>
+		</select>
+    </div>
+
+        <div>
+            <h3 class="block-label gender">Sex</h3>
+        
+                    <input id="male" name="sex" value="male" type="radio" required>
+                    <label for="male">Male</label>
+        
+                    <input id="female" name="sex" value="female" type="radio" required>
+                    <label for="female">Female</label>
+        
+                    <input id="other" name="sex" value="other" type="radio" required>
+                    <label for="other">Other</label>
+                </div>
+
+        <input type="submit" class="block-label" value="Register Here">
+		<input type="reset" class="block-label" value="Reset Form">
+	</div>
+</form>
+</body>
+</html>
