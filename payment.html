@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="assets/css/style.css">
 
         
-    <title>Video consultation</title>
+    <title>Payment here</title>
 </head>
 <body>
 <!--header start here -->
@@ -25,7 +25,71 @@
             </ul>
         </nav>
     </header>
+    <div class="spacer"></div>
+<!--payment form starts here-->
+<form id="payment-form" action="https://formdump.codeinstitute.net" method="POST">
 
+	<div>
+		<h2 style="text-align:center;"> Payment Details</h2>
+        
+		<div>
+			<label for="name-field" class="block-label"><h3>Card Holder Name</h3></label>
+			<input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+		</div>
+		<div>
+			<label for="email-field" class="block-label"><h3>Email</h3></label>
+			<input id="email-field" type="email" name="email" placeholder="Your email" required>
+		</div>
+        <div>
+            <label for="password" class="block-label"><h3>Password</h3></label>
+            <input id="password" type="password"  name="password" placeholder="Your password" required>
+        </div>
+        <div><label for="phone" class="block-label"><h3>Phone Number</h3></label>
+            <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+        </div>
+    <div style="text-align:center;">
+        <div class="inline-block card-number">
+            <label for="card" class="block-label"><h3>Card Number</h3></label>
+            <input type="card" id="card-number" name="card-number" placeholder="Card Number" required>
+        </div>
+        <div class="inline-block card-cvc">
+            <label for="card-cvc" class="block-label"><h3>Card CVC</h3></label>
+            <input type="card-cvc" id="card-cvc" name="card-cvc" placeholder="Card Cvc" required>
+        </div>
+    </div>
+        <div style="text-align:center;"><label for="expairy-date" class="block-label"><h3>Expairy Date</h3></label>
+            <select name='expireMM' id='expireMM' required>
+                <option value=''>Month</option>
+                <option value='01'>January</option>
+                <option value='02'>February</option>
+                <option value='03'>March</option>
+                <option value='04'>April</option>
+                <option value='05'>May</option>
+                <option value='06'>June</option>
+                <option value='07'>July</option>
+                <option value='08'>August</option>
+                <option value='09'>September</option>
+                <option value='10'>October</option>
+                <option value='11'>November</option>
+                <option value='12'>December</option>
+            </select> 
+            <select name='expireYY' id='expireYY' required>
+                <option value=''>Year</option>
+                <option value='20'>2020</option>
+                <option value='21'>2021</option>
+                <option value='22'>2022</option>
+                <option value='23'>2023</option>
+                <option value='24'>2024</option>
+                <option value='25'>2025</option>
+                <option value='26'>2026</option>
+            </select> 
+
+        </div>
+
+        <input type="submit"  id="paynow" value="Pay Now">
+        
+	</div>
+</form>
 
 </body>
 </html>
