@@ -365,6 +365,7 @@ input[type=submit] {
 	background-color:#003E53;
 	color: white;
 	border-radius: 5px;
+    display: inline-block;
 }
 
 input[type=reset] {
@@ -376,6 +377,7 @@ input[type=reset] {
     color: #003E53;
     border: 1px solid #003E53;
     border-radius: 5px;
+    display: inline-block;
 }
 	
 .gender {
@@ -410,3 +412,27 @@ input[type=tel] {
     font-weight: 400;
 }
 
+.Signin , .register {
+
+    padding-left: 10px;
+	margin: 0 auto;
+    color: #003E53;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+/**sign in page styling **/
+
+
+.register a:hover {
+    border-bottom: 1px solid #003E53;
+}
+
+.signinbutton {
+    height: 30px;
+    width: 88%;
+    padding-left: 5px;
+	margin: 0 auto;
+}
