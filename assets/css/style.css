@@ -504,3 +504,23 @@ input[type=card-cvc] {
     padding-left: 5px;
 
 }
+/**how its work**/
+
+.container {
+
+    margin: auto,0;
+    height: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.child {
+
+    margin: 20px;
+    line-height: 200px;
+    height: 400px;
+    width: 200px;
+    text-align: center;
+}
