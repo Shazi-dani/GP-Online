@@ -144,7 +144,7 @@ img{
     height: 200px;
     width: 98%;
 
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     margin-right: 1rem;
 
 
@@ -396,6 +396,51 @@ input[type=tel] {
     font-weight: 400;
 }
 
+.popup {
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+@media screen and (max-width: 490px){
+    .popup{
+        width: 300px;
+    }
+
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+
+}
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .Signin , .register , .payment{
 
     padding-left: 10px;
@@ -528,12 +573,65 @@ input[type=card-cvc] {
 .Includecontainer {
 
     margin: auto,0;
-    height: 600px;
+    height: 1300px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+}
+/** contact section**/
+#contact {
+
+    font: size 1.5em;;
+    font-family: 'lato',sans-serif;
+   
+    height: 200px;
+    width: 93%;
+
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 6rem;
+
+
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+   
+    
+    background-color: rgba(179, 208, 241, 0.7);   
+}
+
+
+.contact-boxes-container {
+    width: 66%;
+    margin: 0 auto;
+}
+
+.contact-box-left {
+    width: 250px;
+    margin-top: -10px;
+	float: left;
+}
+
+.contact-box-right {
+    width: 250px;
+    text-align: right;
+    margin-top: -10px;
+	float: right;
+}
+
+.contact-box-center {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+th,
+td {
+    border-bottom: 1px solid black;
 }
 
 /**footer section**/
@@ -543,7 +641,7 @@ footer {
 	padding: 1em;
 	text-align: center;
     width: 100%;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     right: 0;
 	z-index: 3;

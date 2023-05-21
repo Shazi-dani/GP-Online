@@ -18,16 +18,13 @@
     <a href="index.html"><h1 id="logo">GP Online </h1></a>
     <nav>
             <ul id="menu">
-                <li><a href="register.html">Register</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">How it Works</a></li>
-                <li><a href="index.html">Home</a></li> 
+                <li class="font-weight-bold font-size"><a href="index.html">Home</a></li> 
             </ul>
         </nav>
     </header>
     <div class="spacer"></div>
 <!--registration form starts here-->
-<form id="register-form" action="https://formdump.codeinstitute.net" method="POST">
+<form id="register-form" onsubmit="openPopup()" method="dialog">
 
 	<div>
 		<h2 style="text-align:center;">Register here</h2>
@@ -72,6 +69,13 @@
                 </div>
     
         <input type="submit"   value="Register Here">
+        <div class="popup" id="popup">
+           <img src="../assets/images/gponline-image.jpg">
+            <h2>Your are succesfully register now. Thanks!</h2>
+            <p>Sign In now and do payment for GP Online booking</p>
+           
+            <button type="button" onclick="closePopup()">OK</button>
+        </div>
 		<input type="reset"    value="Reset Form">
         <div class="Signin">
             <span>Already have an account? <a href="signin.html">Sign In</a></span>
@@ -79,5 +83,19 @@
         
 	</div>
 </form>
+
+<script>
+    let popup = document.getElementById("popup");
+    
+    function openPopup() {
+      popup.classList.add("open-popup");
+    }
+    
+    function closePopup() {
+      popup.classList.remove("open-popup");
+      window.open("signin.html")
+    }
+    
+</script>
 </body>
 </html>
