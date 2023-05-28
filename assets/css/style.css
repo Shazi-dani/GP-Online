@@ -108,6 +108,12 @@ h1, h2 {
     float: right;
 }
 
+.hero-img {
+
+    width: 600px;
+    height: 350px;
+}
+
 img{
     display: block;
     border-style: none;
@@ -191,9 +197,9 @@ img{
     text-decoration: none;
     border: 1px solid transparent;
 
-   display: inline-block;
+    display: inline-block;
     vertical-align: middle; 
-     position: relative;
+    position: relative;
     
 
     cursor: pointer;
@@ -222,9 +228,9 @@ img{
     text-decoration: none;
     border: 1px solid transparent;
 
-   display: inline-block;
+    display: inline-block;
     vertical-align: middle; 
-     position: relative;
+    position: relative;
 
 
     cursor: pointer;
@@ -254,6 +260,13 @@ h3 {
     color:#003E53;
     letter-spacing: 0.5px;
 }
+
+.img-work-section {
+
+    width: 350px;
+    height: 350px;
+}
+/**book gp form styling **/
 .form-section {
     clear: left;
     background-image: url(../images/bookgpform-image.jpg);
@@ -266,7 +279,7 @@ h3 {
    
 }
 
-
+/** signup form styling**/
 .signup-form {
     margin: 70px 5% 0 0;
     color: #fff;
@@ -564,6 +577,13 @@ input[type=card-cvc] {
     justify-content: space-around;
 }
 
+.img-include-section {
+
+    width: 400px;
+    height: 400px;
+
+}
+
 .child  .include {
 
     margin: 20px;
@@ -698,11 +718,12 @@ h1, h2 {
 
 
 #logo {
-   font-size: 7rem;
-   line-height: 60px;
+   font-size: 4rem;
+   line-height: 50px;
    margin-top: 50px;
    margin-left: 30px;
    margin-bottom: 50px;
+
     
 }
 
@@ -723,13 +744,12 @@ h1, h2 {
 
 .dropbtn {
     background-image:url("../images/nev-image.png");
-    padding: 10px;
     border: none;
     cursor: pointer;
-    width: 70px;
-    height: 60px;
-    margin-right: 50px;
-    margin-top: 20px;
+    width: 100px;
+    height: 80px;
+    margin-right: 20px;
+    margin-top: 30px;
     
   }
   
@@ -784,7 +804,6 @@ h1, h2 {
     font-size: 4rem;
     line-height: 1;
     color: #003E53;
-    margin-right: 0.5px;
     letter-spacing: 2;
     
     
@@ -794,6 +813,9 @@ h1, h2 {
 .one-third-width-column {
     width: 90%;
     display: block;
+    margin: 10px 10px 10px 10px;
+
+
    
 }
 
@@ -807,9 +829,7 @@ h1, h2 {
 
 
 
-  .float-left {
-    float: left;
-}
+  
 
 /* hero image*/
 .two-thirds-width-column {
@@ -818,25 +838,31 @@ h1, h2 {
     max-width: 90%;
 }
 
+.hero-img {
 
+    width: 900px;
+    height: 350px;
+    
+}
 
-img{
-    display: block;
-    border-style: none;
+.thirds-width-column img {
+    
     width: 900px;
     height: 300px;
     padding-right: 0px;
     padding-left: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
     margin-right: 0px;
     max-width: 100%;
     /* create zoom effect on image*/
-    animation-name: image-zoom;
+    animation-name: hero-image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
 /* create a level of zoom for image*/
-@keyframes image-zoom {
+@keyframes hero-image-zoom {
 
     from {
          transform: scale(1.1);
@@ -847,11 +873,383 @@ img{
 
     }
 }
+
+
 .spacer {
     clear: both;
 }
 
+/* GP booking online*/
+#book-gp {
 
+    font-size: 250%;
+    font-family: 'lato',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+   
+    height: 400px;
+    width: 110%;
+
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+   
+    
+    background-color: rgba(179, 208, 241, 0.7);
+
+    
+}
+.text-center {
+
+    text-align: center;
+}
+.font-size{
+
+    font-size: 2.5rem;
+}
+.font-weight-bold {
+    font-weight: 700;
+}
+/* gp onlinr booking buttons*/
+.gp-booking-buttons{
+    margin-top: 2rem;
+   
+    padding: 0;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 80%;
+    
+  
+}
+
+.phone-gp {
+
+    text-align: center;
+    background-color: #003E53;
+    color: #fff;
+    border-color: #003E53;
+    text-decoration: none;
+    border: 1px solid transparent;
+
+    display: block;
+    cursor: pointer;
+    
+    
+    border-radius: 6.1875rem;
+    line-height:2.5;
+    max-width: 450px;
+
+   
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+   
+
+}
+
+.video-gp {
+
+    text-align: center;
+    background-color: #003E53;
+    color: #fff;
+    border-color: #003E53;
+    text-decoration: none;
+    border: 1px solid transparent;
+
+    display: block;
+    cursor: pointer;
+    
+    
+    border-radius: 6.1875rem;
+    line-height:2.5;
+    max-width: 450px;
+
+   
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+   
+}
+
+.btn-font-bold {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/* How its work section */
+
+h3 {
+    font-family: Oswald, sans-serif;
+    color:#003E53;
+    letter-spacing: 0.5px;
+}
+/**how its works and include section**/
+#how-its-work {
+
+width: 90%;
+height: 120%;
+
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+
+}
+.img-work-section {
+
+    width: 700px;
+    height: 500px;
+}
+
+#one {
+
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#two {
+
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#three {
+
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#four {
+
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.img-include-section {
+
+    width: 800px;
+    height: 500px;
+
+}
+.container {
+
+    margin: auto,0;
+    height: 2000%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.child  .include {
+
+    margin: 50px;
+    line-height: 100px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.Includecontainer {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 500%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+/**registration and from section**/
+
+.form-section {
+    clear: left;
+    background-image: url(../images/bookgpform-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    border: 1px solid #dfe2e5;
+    border-radius: 2px;
+    border-color: #999;
+   
+}
+
+
+.signup-form {
+    margin: 70px 5% 0 0;
+    color: #fff;
+    background-color: rgba(0,62,83, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 5%;
+    padding: 40px;
+}
+
+
+.text-input {
+   
+    color: #003E53;
+    width: 100%;
+    height: 25px;
+    margin: 5px 10px 20px 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1.8;
+}
+#app-date-time
+{
+    border: 2px solid #003E53;
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+}
+
+#app-type {
+
+    border: 2px solid #003E53;
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+}
+.text-input:hover {
+    border-color:#003E53;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color:#003E53;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color:#003E53;
+}
+
+/**register form end here**/
+
+/** contact section**/
+#contact {
+
+    font-size: 1.8rem;
+    font-family: 'lato',sans-serif;
+   
+    height: 400px;
+    width: 93%;
+
+    margin-left: -1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 3rem;
+
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+   
+    
+    background-color: rgba(179, 208, 241, 0.7);   
+}
+.contact-font-size {
+
+    font-size: 4rem;
+}
+
+.contact-boxes-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact-box-left {
+
+    width: 300px;
+    margin-top: -10px;
+	float: left;
+}
+
+.contact-box-right {
+    width: 350px;
+    text-align: right;
+    margin-top: -10px;
+	float: right;
+}
+
+.contact-box-center {
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+th,
+td {
+    border-bottom: 1px solid #003E53;
+}
+
+/**footer section**/
+
+footer {
+	background-color:#003E53;
+	padding: 1em;
+	text-align: center;
+    width: 100%;
+    height: 250%;
+    position: relative;
+    bottom: 0;
+    right: 0;
+	z-index: 2;
+}
+
+footer > span {
+
+	color: rgba(179, 208, 241);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+footer > a {
+
+	color: rgb(247, 247, 245);
+	text-decoration: none;
+	padding: 0 10px;
+	font-size: 1.5rem;
+}
+
+footer > p {
+	color: rgb(247, 247, 245);
+    font-size: 1.5rem;
+}
+
+.text-uppercase {
+
+    text-transform: uppercase;
+}
 
 
 
