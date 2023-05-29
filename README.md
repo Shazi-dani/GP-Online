@@ -1,85 +1,96 @@
-GP Online
-Welcome Shazina Danish,
+#GP Online
+##Welcome Shazina Danish,
 
 GP online is a website where, we are committed to providing exceptional healthcare service with a platform that brings together patients, GP's and pharmacies seamlessly. All of our doctors are based in Ireland and registered with the Irish Medical Council.
 
-What we offer:
+##What we offer:
 More people are finding it difficult to take time out of their busy day-to-day lives to see their GP's or they are having to wait 7-10 days on average to for a consultation.
 
 Healthcare is changing for the better. We at GPonline provide an online GP service that is safe, easy and discreet using our online consultation platform.
 
 Our online platform allows our doctors to provide prescriptions, referral letters and sick notes at their discretion in a seamless manner.
 
-Picture of the website in different devices
+##Picture of the website in different devices
 
-Features
+
+##Wireframes
+Wireframes were created for mobile, tablet and desktop.
+Wireframes image here
+
+##Features
 This Usefull website presents many diferent sections for how some one book a gp phone consultation or vedio consultation after registration and signup and what includes in these consultation like "A complete GP consultation", "digital prescription" , "medical Cert" and "referral letters".
+[View GP Online website on Github Page](https://github.com/Shazi-dani/GP-Online.git)
 
-Navigation Bar
-The entire responsive navigation bar is included on all five pages and is different in each one for ease of navigation.At home page its contains Logo and links to the Home Page, How its work, Contact,Register and Sign In page.At registration and sign In page include Logo , home page link and at GP phone and vedio consultation page includes Logo,Home and Registration links are available.
+##Navigation Bar
+The entire responsive navigation bar is included on all five pages and is different in each one for ease of navigation.At home page its contains Logo and links to the Home Page, How its work, Contact,Register and Sign In page.
+![Home page navigation bar image](assets/images/header-sec-image.png)
 
-With the help of this navigation, users will be able to move between pages on all devices without constantly pressing the "back" button to return to the previous page.
-Navigation bar image here
+At registration and sign In page include Logo , home page link 
+![registration and sign In navigation bar image](assets/images/header-sec-image.png)
+and at GP phone and vedio consultation page includes Logo,Home and Registration links are available. With the help of this navigation, users will be able to move between pages on all devices without constantly pressing the "back" button to return to the previous page.
+![GP telephone and vedio consultation page navigation bar image](assets/images/gpbooking-page-header-img.png)
 
-Landing Page Main Image section
-The website's landing page features a photo at right hand side and on left hand side with text to grab the visitor's attentions.
+##Landing Page Main Image section
+The website's landing page features a photo at right hand side and on left hand side with text to grab the user's attentions.
 This part also recaps the website's objectives and introduces the user what include in this website.
-Landing Page main image with text here
+![Landing Page main image with text here](assets/images/main-image-sec-image.png)
 
-"Book A Trusted Service Here " Section 
+##Book A Trusted Service Here Section 
 The user will be able to book a Telephone Consultation or Vedio consultation here.There is two clickable links in shape of buttons that redirect the user to the respective consultation booking pages.
-Booking section picture here
+![Booking section image here](assets/images/booking-sec-img.png)
 
-How its work section
+##How its work section
 This section will allows the user to know more deeply about how user can book telephone or video consultation step by step with images.
-how its work section image here.
+![how its work section image here](assets/images/howitswork-sec-img.png)
 
-Whats Include section
+##Whats Include section
 This section will allows the user to know more about whats facilities are available in this telephone or video consultation.this section include facilities details with image and text.
-whats include section image here
+![whats include section image here](assets/images/whatsinclude1-sec-img.png)
+![whats include section image here](assets/images/whatsinclude2-sec-img.png)
 
-Contact Section
+
+##Contact Section
 This section have all the information related to GP online openning and closing time, Address, customer service Phone number and email address.
-cpntact section image here
+![contact section image here](assets/images/contact-sec-img.png)
 
-The Footer 
+##The Footer 
 Links to the pertinent social media platforms are provided in the footer section. The links will open in a new tab for the user's convenience. -->
 The user benefits from the footer since it encourages them to stay engaged on social media.
-Footer image
+![Footer image here](assets/images/footer-sec-img.png)
 
-Registration Page
+##Registration Page
 This page will allows the user do registration through a form. After registration completion popup tab opeb which confirms registration is done and redirect user to sign in page.
-Registration Page image
+![Registration Page image](assets/images/registration-image.png)
 
-Sign In Page
+##Sign In Page
 This page allows the user to sign in and after sign in they can book GP consultation and do payment.
-Sign In Page image
+![Sign In Page image](assets/images/signin-page-img.png)
 
-Telephone Consultation page
+##Telephone Consultation page
 This page allows the user to easily book a Telephone consultation with one of our GP. First they have to select type of consultation then choose date and time,Do payment after booking.this page also include payment page link .
+![Telephone reservation Page image](assets/images/reservation-page-img.png)
 
-Telephone Consultation
-
-Video Consultation page
+##Video Consultation page
 This page allows the user to easily book a Video consultation with one of our GP. First they have to select type of consultation then choose date and time,Do payment after booking.this page also include payment page link.
-Video consultation page
+![Video reservation Page image](assets/images/reservationvideo-page-img.png)
 
-Payment page
+
+##Payment page
 After booking consultation the user have to do payment through payment page.this page include payments details form.
-Payment page image
+![Payment page image](assets/images/payment-page-img.png)
 
-Features Left to Implement
+##Features Left to Implement
 We think about improving our sites aesthetically in a near future
 Technologies / Support Used like
 
--when user sign in it will redirect the user to a user dashboard which will have booking appointment link,payment link for doing payments and all details related to their health ,booking time date and time ,prescriptions order details, referrals letters details etc
+*when user sign in it will redirect the user to a user dashboard which will have booking appointment link,payment link for doing payments and all details related to their health ,booking time date and time ,prescriptions order details, referrals letters details etc
 
--when user Do payment they will received an email related to their consultation date ,time and also received a questionnare.
+*when user Do payment they will received an email related to their consultation date ,time and also received a questionnare.
 Before we prescribe you the required medication, we would like to check if this product is suitable for you. You will be asked to fill in a short online questionnare. Once completed Based on the questionnare answer, our GP will either recommend a treatment (send a prescription directly to the pharmacy or a medical certificate directly to you, if the case) or send you a referral letter for a specialist or emergecny department for consultation, Xrays,Ultaround or Scans.
 
--prescripition order section for ordering prescription directlly without consultation.
+*prescripition order section for ordering prescription directlly without consultation.
 
-Below is a list of Technologies / Support I have used to build my site.
+##Below is a list of Technologies / Support I have used to build my site.
 
 HTML is used to provide the structure and content of the website.
 CSS is used via link to the HTML to provided style the pages.
