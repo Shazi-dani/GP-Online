@@ -14,7 +14,7 @@ Our online platform allows our doctors to provide prescriptions, referral letter
 
 
 ## Wireframes
-Wireframes were created for mobile, tablet and desktop.
+Wireframes were created for mobile, tablet,laptop and desktop.(https://lucid.app/lucidchart/a325f522-4f26-47cd-b215-18d64c454b19/edit?invitationId=inv_0aede0b5-4bf6-4b57-89ea-ef34ddbe5e7f)
 Wireframes image here
 ![Home page navigation bar image](assets/images/gponline-wireframe.png)
 
@@ -190,9 +190,11 @@ Debugging occurred during the process of development and testing as the website 
 + Setup workspace in Codeanywhere and Created all folders and files and code project
 + Go to GitHub website
 + Go to my repository in the GitHub
-+ Go to Settings tab click on
-+Go to GitHub Page and linking the main root to Master Branch
-Once this is done the page will automatically creat the ribbon with the http host page name that is been hosted by GitHub. The live link can be found here:
++ Go to Settings tab click on Select pages in the left hand navigation menu.
++ From the source dropdown select main branch and press save.
++ The site has now been deployed, please note that this process may take a few minutes before the site goes live.
++ Go to GitHub Page and linking the main root to Master Branch
+Once this is done the page will automatically creat the ribbon with the http host page name that is been hosted by GitHub. The live link can be found here:(https://github.com/Shazi-dani/GP-Online.git)
 
 # Clone Project
 * Cloning of Project was made possible by GitHub
