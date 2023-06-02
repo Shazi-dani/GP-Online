@@ -82,13 +82,13 @@ This page allows the user to sign in and after sign in they can book GP consulta
 ## Telephone Consultation page
 
 This page allows the user to easily book a Telephone consultation with one of our GP. First they have to select type of consultation then choose date and time,Do payment after booking.this page also include payment page link .
-![Telephone reservation Page image](assets/images/reservation-page-img.png)
+![Telephone reservation Page image](assets/images/tele-res-page.png)
 
 
 ## Video Consultation page
  
 This page allows the user to easily book a Video consultation with one of our GP. First they have to select type of consultation then choose date and time,Do payment after booking.this page also include payment page link.
-![Video reservation Page image](assets/images/reservationvideo-page-img.png)
+![Video reservation Page image](assets/images/vid-res-page.png)
 
 
 ## Payment page

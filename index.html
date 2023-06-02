@@ -23,6 +23,7 @@
                 <li><a href="index.html">Home</a></li> 
             </ul>
         </nav>
+        <!--tablet dropdown -->
         <div class="dropdown">
             <button class="dropbtn"><img src="../assets/images/nev-image.jpg"></button>
             <div class="dropdown-content font-weight-bold font-size">
@@ -31,11 +32,24 @@
                 <a href="#contact" aria-label="Go to contact information section">Contact</a>
                 <a href="register.html">Register</a>
                 <a href="signin.html">Sign In</a>
-                
-                
-                
+            
             </div>
         </div>
+        
+        <!--mobilephone dropdown -->
+        <div class="mobiledropdown">
+            <button class="mobiledropdownbtn"><h1>GP Online</h1></button>
+            <div class="mobiledropdown-content font-weight-bold font-size">
+                <a href="index.html">Home</a>
+                <a href="#how-its-work" aria-label="Go to How its work section">How its Work</a>
+                <a href="#contact" aria-label="Go to contact information section">Contact</a>
+                <a href="register.html">Register</a>
+                <a href="signin.html">Sign In</a>
+                
+         </div>
+        </div>
+    
+
     </header>
     <div class="spacer"></div>
     <!--main heading start here -->
@@ -51,7 +65,7 @@
         </ul>
     </div>
 <!--hero image start here -->
-        <div class="two-thirds-width-column float-right">
+        <div class="two-thirds-width-column">
             <img src="../assets/images/gponline-image.jpg" 
             alt="doctor picture on laptop screen" class="hero-img">
                 </div>
@@ -95,7 +109,7 @@
      </section>
    
 <!--whats includes in this website section here-->
-    <section>
+    <section class="include-section">
         <div class="text-center font-weight-bold font-size">
             <h2>Whats Include</h2>
         </div>
@@ -167,9 +181,52 @@
         </div>
       </section>
     <div class="spacer"></div>
+    <!--phone contact us section-->
+    <section id="phone-contact">
+        <h2 class="text-center font-weight-bold contact-font-size">Contact</h2>
+        <div class="contact-boxes-container">
+            <div class="phone-contact-box-center">
+                <h3 style="text-align:left;"> Customer Support </h3>
+    
+                <table class="text-center">
+                <tr>
+                    <th>Online GP</th>
+                    <th>Open</th>
+                    <th>Close</th>	
+                </tr>
+                <tr>
+                    <td>Mon - Fri</td>
+                    <td>08:00</td>
+                    <td>23:00</td>
+                </tr>
+                <tr>
+                    <td>Weekend</td>
+                    <td>09:00</td>
+                    <td>22:00</td>
+                </tr>	
+                </table>
+            </div>
+            <div class="text-right phone-contact-box-right">
+                <h3 style="text-align:center;">Get in touch</h3>
+    
+                <div>
+                <span class="font-weight-bold">Phone: </span>
+                <span>089 123 456 8</span>
+                </div>
+                <div>
+                <span class="font-weight-bold">Email: </span>
+                <span>gponline@doctor.com</span>
+                </div>
+            </div>
+            <div class="phone-contact-box-left">
+                <h3>Address</h3>
+                <p>Online GP,<br> Main street,<br>Dublin</p>
+            </div>
+        </div>
+      </section>
+    <div class="spacer"></div>
     <!--footer start here-->
-    <footer>
-        <footer class="text-uppercase">
+        <footer class="text-uppercase main-footer">
 
             <span>Find us on:</span>
     
@@ -180,5 +237,17 @@
             <p>Copyright © GP Online 2023</p>
         
         </footer>
+        <!--mobilephone footer-->
+            <footer class="text-uppercase phone-footer">
+    
+                <h2>Find us on:</h2>
+                <hr>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
+        
+                <p>Copyright © GP Online 2023</p>
+            
+            </footer>
 </body>
 </html>
