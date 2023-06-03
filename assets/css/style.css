@@ -1286,6 +1286,15 @@ margin-bottom: 20px;
       border-bottom: 1px solid #003E53;
   }
 /**payment responsive**/
+#payment-form {
+    width: 80%;
+    padding: 25px;
+    background-color: rgba(90, 126, 138, 0.7);
+    border-radius: 8px;
+    margin: 25px auto;
+    align-self: center;
+}
+
 .payment-responsive {
 
     width: 100%;
@@ -1558,6 +1567,7 @@ header {
     width: 100%;
     height: 100px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 
@@ -2016,6 +2026,16 @@ h3 {
       border-bottom: 1px solid #003E53;
   }
 /**payment responsive**/
+
+#payment-form {
+    width: 80%;
+    padding: 25px;
+    background-color: rgba(90, 126, 138, 0.7);
+    border-radius: 8px;
+    margin: 25px auto;
+    align-self: center;
+}
+
 .payment-responsive {
 
     width: 100%;
@@ -2055,9 +2075,10 @@ h3 {
   /** responsive telephone GP booking page**/
   
   .phonegp-responsive {
-    width: 78%;
+    width: 100%;
     height: 90%;
-    font-size: 120%;
+    font-size: 130%;
+    line-height: 1.7em;
   }
   
   .phonegp-responsive a {
@@ -2065,22 +2086,26 @@ h3 {
 }
   #menu-phonegp {
     line-height: 75px;
-    font-size: 100%;
-    letter-spacing: 3px;
-    font-weight: 600px;
-  }
+      font-size: 100%;
+      letter-spacing: 3px;
+      font-weight: 600px;
+      width: 100%;
+}
+
      
-  #menu-phonegp li {
-      float: right;
-      margin-right: 10px;
-      list-style-type: none;
-      margin-top: 40px;
+#menu-phonegp li {
     
+    float: right;
+    margin-right: 10px;
+    list-style-type: none;
+    margin-top: 40px;
+
   }    
   
   #menu-phonegp a {
       
       text-decoration: none;
+      margin: 0 auto;
       color: #003E53;
   }
   
@@ -2090,9 +2115,11 @@ h3 {
 /**responsive video gp booking page**/
 .videogp-responsive {
 
-    width: 78%;
+    width: 100%;
     height: 90%;
-    font-size: 120%;
+    font-size: 130%;
+    line-height: 1.7em;
+
   }
 
   .videogp-responsive a {
@@ -2105,6 +2132,7 @@ h3 {
       font-size: 100%;
       letter-spacing: 3px;
       font-weight: 600px;
+      width: 100%;
   }
      
   #menu-videogp li {
@@ -2123,6 +2151,46 @@ h3 {
   
   #menu-videogp a:hover {
       border-bottom: 1px solid #003E53;
+  }
+
+  /**book gp form styling **/
+.form-section {
+    clear: left;
+    background-image: url(../images/bookgpform-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    border: 1px solid #dfe2e5;
+    border-radius: 2px;
+    border-color: #999;
+   
+}
+
+/** signup form styling**/
+.bookgp-form {
+    margin: 70px 5% 0 0;
+    color: #fff;
+    background-color: rgba(0,62,83, 0.6);
+    max-width: 60%;
+    position: absolute;
+    left: 5%;
+    padding: 40px;
+}
+
+
+/** register form styling starts here**/
+
+
+
+#register-form {
+
+    width: 600px;
+	padding: 25px;
+    background-color: rgba(90, 126, 138, 0.7);
+	border-radius: 8px;
+	margin: 25px auto;
+    align-self: center;
+	
   }
 
 /** contact section**/
@@ -2153,6 +2221,7 @@ h3 {
     
     background-color: rgba(179, 208, 241, 0.7);   
 }
+
 .contact-font-size {
 
     font-size: 4rem;
@@ -2244,45 +2313,5 @@ td {
     text-transform: uppercase;
 }
 
-/**book gp form styling **/
-.form-section {
-    clear: left;
-    background-image: url(../images/bookgpform-image.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-    border: 1px solid #dfe2e5;
-    border-radius: 2px;
-    border-color: #999;
-   
-}
 
-/** signup form styling**/
-.bookgp-form {
-    margin: 70px 5% 0 0;
-    color: #fff;
-    background-color: rgba(0,62,83, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 5%;
-    padding: 40px;
-}
-
-
-/** register form styling starts here**/
-
-
-
-#register-form {
-
-    width: 600px;
-	padding: 25px;
-    background-color: rgba(90, 126, 138, 0.7);
-	border-radius: 8px;
-	margin: 25px auto;
-    align-self: center;
-	
-}
-
-
-}
+ }

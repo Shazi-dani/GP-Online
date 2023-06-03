@@ -107,6 +107,7 @@ Technologies / Support Used like
 Before we prescribe you the required medication, we would like to check if this product is suitable for you. You will be asked to fill in a short online questionnare. Once completed Based on the questionnare answer, our GP will either recommend a treatment (send a prescription directly to the pharmacy or a medical certificate directly to you, if the case) or send you a referral letter for a specialist or emergecny department for consultation, Xrays,Ultaround or Scans.
 
 * prescripition order section for ordering prescription directlly without consultation.
+* few java quries left for making website more responsive
 
 ## Below is a list of Technologies / Support I have used to build my site.
 
@@ -154,24 +155,15 @@ As a user I was able to undersatnd how to use the site and what is the purpose o
 1. That the site was about Gp Online Consultation,
 2. The navigation was clear and I could easily go to the information I was seeking.
 3. I was informed and drawn into the site,
-4. I was able to seek for more information via links and via a customer service contact information.
+4. I was able to seek for more information via links and via a customer service contact information. 
 
-+ Testing done via git preview.
+
 
 + Testing of the media queries was carried out via dev tools on google chroom.
 
 + HTML files were tested through W3C Html validator
-
-+ CSS file was tested through W3C Css Validator
-
-+ Responsive design media queries tested through Am I Responsive
-
++ CSS file was tested through W3C Css Validators.
 + Deployed project was tested in my default browser Microsoft Edge as wells as Google Chrome and Firefox.
-
-+ Results of Light House test below
-
-![Light House Test](https://i.imgur.com/PgHV
-
 
 
 # Bugs
@@ -180,9 +172,7 @@ Debugging occurred during the process of development and testing as the website 
 # Validator Testing
 * Test Validators
 + HTML - W3C Html Validator - No errors returned when pass through .
-+ CSS - W3C CSS Validator - No errors returned when pass through .
-+ RESPONSIVENESS - Am I Responsive for different divices media queries.
-+ LIGHTHOUSE - Website tested for Performance, Accessibility, Best Practice and SEO as seen below.
++ CSS - W3C CSS Validator - No errors returned when pass through.
 
 # Deployment of Project
 * Deployment was made possible by GitHub and Code any where
