@@ -164,7 +164,9 @@ As a user I was able to undersatnd how to use the site and what is the purpose o
 + HTML files were tested through W3C Html validator
 + CSS file was tested through W3C Css Validators.
 + Deployed project was tested in my default browser Microsoft Edge as wells as Google Chrome and Firefox.
++ Result of lighthouse Testing given below
 
+![lighthouse testing image](assets/images/lighthouse-testing.png)
 
 # Bugs
 Debugging occurred during the process of development and testing as the website was built as testing was done constantly as errors "bugs" were detected during testing I would use dev tools to see and test what would solve the particular error that occurred and fix the errors as they occurred.
