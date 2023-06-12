@@ -8,10 +8,854 @@
 }
 
 body {
+        margin: 0 auto;
+        font-family: 'lato',sans-serif;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.7;
+        color: #333;
+        text-align: left;
+        background-color: rgb(233, 238, 247);
+        width: 100%;
+
+    }
+/*headings and logo*/
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    color:#003E53;
+    letter-spacing: 1px;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#logo {
+   font-size: 280%;
+    float: left;
+    margin-left: 20px;
+}
+
+#phone-logo {
+
+    display: none;
+}
+
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    font-weight: 500px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+    
+}    
+
+#menu a {
+    text-decoration: none;
+    color: #003E53;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #003E53;
+}
+.dropdown {
+
+    display: none;
+}
+
+.mobiledropdown {
+
+    display: none;
+}
+
+/*main heading*/
+.main-heading {
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #003E53;
+
+    
+
+}
+.one-third-width-column {
+    width: 40%;
+    display: inline-block;
+}
+
+.main-heading-text{
+    color: #003E53;
+    font-size: 2rem;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: 2px;
+}
+#heading{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1em;
+    margin-inline-end: 20px;
+    padding-inline-start: 20px;
+    
+}
+
+
+  .float-left {
+    float: left;
+}
+
+/* hero image*/
+.two-thirds-width-column {
+
+
+    display: inline-block;
+    width: 55%;
+
+}
+
+.float-right {
+    float: right;
+}
+
+.hero-img {
+
+    width: 90%;
+    height: 350px;
+    float: right;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.two-thirds-width-column img{
+    display: block;
+    border-style: none;
+    
+    padding-right: 0px;
+    padding-left: 25px;
+    /* create zoom effect on image*/
+    animation-name: image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* create a level of zoom for image*/
+@keyframes image-zoom {
+
+    from {
+         transform: scale(1.2);
+    }
+    to {
+
+        transform: scale(1.1);
+
+    }
+}
+.spacer {
+    clear: both;
+}
+/* GP booking online*/
+#book-gp {
+
+    font-size: 130%;
+    font-family: 'lato',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+   
+    height: 220px;
+    width: 98%;
+
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+
+
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+   
+    
+    background-color: rgba(179, 208, 241, 0.7);
+
+    
+}
+.text-center {
+
+    text-align: center;
+}
+.font-size{
+
+    font-size: 2.5rem;
+}
+.font-weight-bold {
+    font-weight: 700;
+}
+/* gp onlinr booking buttons*/
+.gp-booking-buttons{
+    margin-top: 2rem;
+   
+    padding: 0;
+    margin: 0;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+
+.phone-gp {
+
+    text-align: center;
+    background-color: #003E53;
+    color: #fff;
+    border-color: #003E53;
+    text-decoration: none;
+    border: 1px solid transparent;
+
+
+    vertical-align: middle; 
+    
+    
+
+    cursor: pointer;
+    
+    
+    border-radius: 6.1875rem;
+    line-height:2.5;
+    max-width: 450px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+   
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+   
+
+}
+
+.video-gp {
+
+    text-align: center;
+    background-color: #003E53;
+    color: #fff;
+    border-color: #003E53;
+    text-decoration: none;
+    border: 1px solid transparent;
+
+    
+    vertical-align: middle; 
+   
+
+
+    cursor: pointer;
+    
+    
+    border-radius: 6.1875rem;
+    line-height:2.5;
+    max-width: 450px;
+   
+    margin-left: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+   
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+   
+}
+
+.btn-font-bold {
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+/* How its work section */
+
+h3 {
+    font-family: Oswald, sans-serif;
+    color:#003E53;
+    letter-spacing: 0.5px;
+}
+#how-its-work{
+
+    width: 100%;
+    height: 800px;
+}
+
+.img-work-section {
+
+    width: 350px;
+    height: 350px;
+}
+/**book gp form styling **/
+.form-section {
+    clear: left;
+    background-image: url(../images/bookgpform-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    border: 1px solid #dfe2e5;
+    border-radius: 2px;
+    border-color: #999;
+   
+}
+
+/** book gp form styling**/
+.bookgp-form {
+    margin: 70px 5% 0 0;
+    color: #fff;
+    background-color: rgba(0,62,83, 0.6);
+    max-width: 500px;
+    position: absolute;
+    left: 7%;
+    padding: 40px;
+}
+
+/**videogp menu styling**/
+#menu-videogp {
+    line-height: 75px;
+    font-size: 110%;
+    letter-spacing: 4px;
+    font-weight: 500px;
+}
+#menu-videogp li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+    
+}    
+
+#menu-videogp a {
+    text-decoration: none;
+    color: #003E53;
+}
+
+#menu-videogp a:hover {
+    border-bottom: 1px solid #003E53;
+}
+
+/**phonegp menu styling**/
+#menu-phonegp {
+    line-height: 75px;
+    font-size: 110%;
+    letter-spacing: 4px;
+    font-weight: 500px;
+}
+#menu-phonegp li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+    
+}    
+
+#menu-phonegp a {
+    text-decoration: none;
+    color: #003E53;
+}
+
+#menu-videphonegpogp a:hover {
+    border-bottom: 1px solid #003E53;
+}
+
+.text-input {
+   
+    color: #003E53;
+    width: 100%;
+    height: 25px;
+    margin: 5px 10px 20px 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1.8;
+}
+#app-date-time
+{
+    border: 2px solid #003E53;
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+}
+
+#app-type {
+
+    border: 2px solid #003E53;
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+}
+.text-input:hover {
+    border-color:#003E53;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color:#003E53;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color:#003E53;
+}
+
+/** register form styling starts here**/
+
+#register-form {
+
+    width: 700px;
+	padding: 25px;
+    background-color: rgba(90, 126, 138, 0.7);
+	border-radius: 8px;
+	margin: 25px auto;
+    align-self: center;
+	
+}
+
+#menu-register {
+    line-height: 75px;
+    font-size: 110%;
+    letter-spacing: 4px;
+    font-weight: 500px;
+}
+#menu-register li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+    
+}    
+
+#menu-register a {
+    text-decoration: none;
+    color: #003E53;
+}
+
+#menu-register a:hover {
+    border-bottom: 1px solid #003E53;
+}
+.block-label {
+	display: block;
+    line-height: 1.6;
+   
+}
+
+label {
+    margin: 10px 15px 5px 0;
+}
+
+input[type=submit] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color:#003E53;
+	color: white;
+	border-radius: 5px;
+    display: inline-block;
+}
+
+input[type=reset] {
+
+	margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: white;
+    color: #003E53;
+    border: 1px solid #003E53;
+    border-radius: 5px;
+    display: inline-block;
+}
+	
+.gender {
+
+    margin-top: 5px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+	margin: 0 auto;
+    color: #003E53;
+    font-weight: 400;
+}
+
+select {
+    height: 30px;
+    width: 100px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+input[type=tel] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+	margin: 0 auto;
+    color: #003E53;
+    font-weight: 400;
+}
+
+.popup {
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+@media screen and (max-width: 490px){
+    .popup{
+        width: 300px;
+    }
+
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+
+}
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Signin , .register , .payment{
+
+    padding-left: 10px;
+	margin: 0 auto;
+    color: #003E53;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+
+/**sign in page styling **/
+.signinbutton {
+    height: 30px;
+    width: 88%;
+    padding-left: 5px;
+	margin: 0 auto;
+}
+#menu-signin {
+    line-height: 75px;
+    font-size: 110%;
+    letter-spacing: 4px;
+    font-weight: 500px;
+}
+#menu-signin li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+    
+}    
+
+#menu-signin a {
+    text-decoration: none;
+    color: #003E53;
+}
+
+#menu-signin a:hover {
+    border-bottom: 1px solid #003E53;
+}
+
+.paymentbtn{
+    text-align: center;
+    background-color: #003E53;
+    color: #fff;
+    border-color: #003E53;
+    text-decoration: none;
+    border: 1px solid transparent;
+
+   display: inline-block;
+    vertical-align: middle; 
+     position: relative;
+
+
+    cursor: pointer;
+    
+    
+    border-radius:1rem;
+    line-height:1.5;
+    max-width: 350px;
+   
+    margin-left: 15rem;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+   
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    
+}
+
+/**payment page styling**/
+
+#payment-form {
+
+    width: 700px;
+	padding: 25px;
+    background-color: rgba(90, 126, 138, 0.7);
+	border-radius: 8px;
+	margin: 25px auto;
+    align-self: center;
+	
+}
+
+#menu-payment {
+    line-height: 75px;
+    font-size: 110%;
+    letter-spacing: 4px;
+    font-weight: 500px;
+}
+#menu-payment li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+    
+}    
+
+#menu-payment a {
+    text-decoration: none;
+    color: #003E53;
+}
+
+#menu-payment a:hover {
+    border-bottom: 1px solid #003E53;
+}
+.inline-block
+{
+    display: inline-block;
+    
+}
+#paynow {
+    height: 30px;
+    width: 95%;
+    padding-left: 3px;
+
+}
+
+.card-cvc {
+
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+
+.card-number {
+
+    margin-left: -3rem;
+    margin-top: 0.5rem;
+
+}
+
+input[type=card]  {
+
+    height: 30px;
+    width: 100%;
+    padding-left: 5px;
+
+	
+}
+
+input[type=card-cvc] {
+
+    height: 30px;
+    width: 100%;
+    padding-left: 5px;
+
+}
+/**how its works and include section**/
+.include-section {
+
+    width: 100%;
+    height: 1600px;
+}
+
+.container {
+
+    margin: auto,0;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img-include-section {
+
+    width: 425px;
+    height: 425px;
+
+}
+
+.child  .include {
+
+    margin: 20px;
+    line-height: 200px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+.Includecontainer {
+
+    margin: auto,0;
+    height: 1300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+/** contact section**/
+#contact {
+
+    font: size 1.5em;;
+    font-family: 'lato',sans-serif;
+   
+    height: 250px;
+    width: 100%;
+
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 3rem;
+
+
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+   
+    
+    background-color: rgba(179, 208, 241, 0.7);   
+}
+
+
+.contact-boxes-container {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.7rem;
+}
+
+.contact-box-left {
+    width: 33%;
+    margin-top: -10px;
+	float: left;
+}
+
+.contact-box-right {
+    width: 33%;
+    text-align: center;
+    margin-top: -10px;
+	float: right;
+}
+
+.contact-box-center {
+    width: 33%;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+th,
+td {
+    border-bottom: 1px solid black;
+}
+
+#phone-contact {
+
+    display:none;
+}
+
+/**footer section**/
+.phone-footer {
+
+    display:none;
+}
+
+footer {
+	background-color:#003E53;
+	padding: 1em;
+	text-align: center;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+	z-index: 1;
+    font-size: 2rem;
+}
+
+footer > span {
+	color: silver;
+    font-size: 1.5rem;
+}
+
+footer > a {
+	color: beige;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 2rem;
+}
+
+footer > p {
+	color: silver;
+}
+
+.text-uppercase {
+
+    text-transform: uppercase;
+}
+
+
+/**responsive website for laptop**/
+@media screen and (min-width: 1200px) and (max-width: 1380px) {
+
+    body {
         margin: 0;
         font-family: 'lato',sans-serif;
-        font-size: 1rem;
-        font-weight: 400;
+        font-size: 1.5rem;
+        font-weight: 500;
         line-height: 1.6;
         color: #333;
         text-align: left;
@@ -95,6 +939,7 @@ h1, h2 {
     margin-right: 1em;
     padding-left: 2px;
 }
+
 #heading{
     display: block;
     list-style-type: disc;
@@ -115,6 +960,7 @@ h1, h2 {
 
 
     display: inline-block;
+    width: 55%;
 
 }
 
@@ -124,9 +970,10 @@ h1, h2 {
 
 .hero-img {
 
-    width: 700px;
+    width: 90%;
     height: 350px;
     float: right;
+    margin-right: -25px;
 }
 
 .two-thirds-width-column img{
@@ -166,7 +1013,7 @@ h1, h2 {
 
    
     height: 200px;
-    width: 98%;
+    width: 100%;
 
     margin-left: 0.5rem;
     margin-right: 1rem;
@@ -191,14 +1038,14 @@ h1, h2 {
     font-size: 2.5rem;
 }
 .font-weight-bold {
-    font-weight: 700;
+    font-weight: 800;
 }
 /* gp onlinr booking buttons*/
 .gp-booking-buttons{
     margin-top: 2rem;
    
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     width: 100%;
   
 }
@@ -224,7 +1071,7 @@ h1, h2 {
     line-height:1.5;
     max-width: 350px;
    
-    margin-left: 8rem;
+    margin-left: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding: 2rem;
@@ -729,8 +1576,8 @@ input[type=card-cvc] {
     font: size 1.5em;;
     font-family: 'lato',sans-serif;
    
-    height: 200px;
-    width: 93%;
+    height: 250px;
+    width: 100%;
 
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -748,25 +1595,26 @@ input[type=card-cvc] {
 
 
 .contact-boxes-container {
-    width: 66%;
+    width: 100%;
     margin: 0 auto;
+    font-size: 1.7rem;
 }
 
 .contact-box-left {
-    width: 250px;
+    width: 33%;
     margin-top: -10px;
 	float: left;
 }
 
 .contact-box-right {
-    width: 250px;
-    text-align: right;
+    width: 33%;
+    text-align: center;
     margin-top: -10px;
 	float: right;
 }
 
 .contact-box-center {
-    width: 250px;
+    width: 33%;
     height: 250px;
     margin: 0 auto;
     text-align: center;
@@ -793,21 +1641,24 @@ footer {
 	padding: 1em;
 	text-align: center;
     width: 100%;
+    height: 150px;
     position: relative;
     bottom: 0;
     right: 0;
-	z-index: 2;
+	z-index: 1;
+    font-size: 2rem;
 }
 
 footer > span {
 	color: silver;
+    font-size: 1.5rem;
 }
 
 footer > a {
 	color: beige;
 	text-decoration: none;
 	padding: 0 15px;
-	font-size: 0.8rem;
+	font-size: 2rem;
 }
 
 footer > p {
@@ -819,7 +1670,8 @@ footer > p {
     text-transform: uppercase;
 }
 
-/**responsive website**/
+
+}
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
