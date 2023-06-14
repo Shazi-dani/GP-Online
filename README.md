@@ -11,7 +11,7 @@ Healthcare is changing for the better. We at GPonline provide an online GP servi
 Our online platform allows our doctors to provide prescriptions, referral letters and sick notes at their discretion in a seamless manner.
 
 ## Picture of the website in different devices
-
+![Picture of the website in different devices](assets/images/responsive-img.png)
 
 ## Wireframes
 Wireframes were created for mobile, tablet,laptop and desktop.(https://lucid.app/lucidchart/a325f522-4f26-47cd-b215-18d64c454b19/edit?invitationId=inv_0aede0b5-4bf6-4b57-89ea-ef34ddbe5e7f)
@@ -214,7 +214,7 @@ Once this is done the page will automatically creat the ribbon with the http hos
 
 * W3C Validators both HTML and CSS to keep a check on my code. The W3C Markup Validation Service https://validator.w3.org
 
-* I am Responsive for a fantastic spot to see a visual of responsiveness
+* I am Responsive for a fantastic spot to see a visual of responsiveness . https://ui.dev/amiresponsive?url=https://8000-shazidani-gponline-9wlpxvh7fwf.ws-eu99.gitpod.io
 
 * Lighthouse testing system.
 
