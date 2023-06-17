@@ -1042,7 +1042,7 @@ h1, h2 {
     font-weight: 800;
 }
 /* gp onlinr booking buttons*/
-.gp-booking-buttons{
+.gp-booking-buttons {
     margin-top: 2rem;
    
     padding: 0;
@@ -1094,7 +1094,7 @@ h1, h2 {
     display: inline-block;
     vertical-align: middle; 
     position: relative;
-
+    
 
     cursor: pointer;
     
@@ -1103,7 +1103,7 @@ h1, h2 {
     line-height:1.5;
     max-width: 350px;
    
-    margin-left: 7rem;
+    margin-left: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding: 2rem;
@@ -1946,7 +1946,7 @@ header {
 
     padding: 0;
     margin: 0 auto;
-    width: 65%;
+
     
   
 }
@@ -1990,6 +1990,7 @@ header {
     border-radius: 6.1875rem;
     line-height:2.5;
     max-width: 450px;
+    margin-left: 3px;
 
    
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
@@ -2062,11 +2063,24 @@ margin-bottom: 20px;
     margin-right: 20px;
     margin-left: 20px;
 }
+.include-section{
+
+    display: block;
+    width: 100%;
+    height: 150%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
 
 .img-include-section {
 
     width: 800px;
     height: 500px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 
 }
 .container {
@@ -3574,7 +3588,7 @@ h3 {
 
     width: 99%;
     height: 120%;
-    margin-left: 20px;
+
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -3594,6 +3608,7 @@ h3 {
 
     margin: 0 auto;
     height: 2000%;
+    margin-left: 6px;
 
     display: flex;
     flex-direction: row;
@@ -3734,6 +3749,28 @@ h3 {
     text-decoration: none;
 }
 
+.paymentbtn {
+
+    text-align: center;
+    background-color: #003E53;
+    color: #fff;
+    border-color: #003E53;
+    text-decoration: none;
+    border: 1px solid transparent;
+    display: block;
+    cursor: pointer;
+    border-radius: 1rem;
+    line-height: 1.5;
+    max-width: 380px;
+    /* margin-right: 0.5rem; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-left: -10px;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+}
+
   #menu-payment {
       line-height: 75px;
       font-size: 110%;
@@ -3758,6 +3795,15 @@ h3 {
   #menu-payment a:hover {
       border-bottom: 1px solid #003E53;
   }
+.card-number{
+
+    margin-left: -3rem;
+    margin-top: 0.5rem;
+    height: 30px;
+     margin: 0 auto;
+    
+}
+ 
   /** responsive telephone GP booking page**/
   
   .phonegp-responsive {
@@ -3767,6 +3813,22 @@ h3 {
     line-height: 1.7em;
   }
   
+  .card-number{
+
+    margin-left: -3rem;
+    margin-top: 0.5rem;
+    height: 30px;
+     margin: 0 auto;
+    
+}
+.card-cvc {
+
+    margin-left: -3rem;
+    margin-top: 0.5rem;
+    height: 30px;
+     margin: 0 auto;
+    
+}
   .phonegp-responsive a {
     text-decoration: none;
 }
@@ -3845,7 +3907,7 @@ h3 {
     background-image: url(../images/bookgpform-image.jpg);
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 1100px;
     border: 1px solid #dfe2e5;
     border-radius: 2px;
     border-color: #999;
@@ -3854,10 +3916,10 @@ h3 {
 
 /** signup form styling**/
 .bookgp-form {
-    margin: 70px 5% 0 0;
+    margin: 20px 5% 0 0;
     color: #fff;
     background-color: rgba(0,62,83, 0.6);
-    max-width: 60%;
+    width: 65%;
     position: absolute;
     left: 5%;
     padding: 40px;
@@ -3870,12 +3932,11 @@ h3 {
 
 #register-form {
 
-    width: 600px;
-	padding: 25px;
+    width: 250px;
+    padding: 15px;
     background-color: rgba(90, 126, 138, 0.7);
-	border-radius: 8px;
-	margin: 25px auto;
-    align-self: center;
+    border-radius: 8px;
+    margin: 10px aut
 	
   }
 
