@@ -165,8 +165,25 @@ As a user I was able to undersatnd how to use the site and what is the purpose o
 + CSS file was tested through W3C Css Validators.
 + Deployed project was tested in my default browser Microsoft Edge as wells as Google Chrome and Firefox.
 + Result of lighthouse Testing given below
+ + Home page lighthouse testing image below
 
-![lighthouse testing image](assets/images/lighthouse-testing.png)
+![index page lighthouse testing image](assets/images/index-page-testing.png)
+
+  + Register page lighthouse testing image below
+
+![index page lighthouse testing image](assets/images/register-page-testing.png)
+
+  + Sign In page lighthouse testing image below
+
+![index page lighthouse testing image](assets/images/signin-page-testing.png)
+
+  + Telephone GP booking page lighthouse testing image below
+
+![index page lighthouse testing image](assets/images/phonegp-page-testing.png)
+
+  + Video call GP booking page lighthouse testing image below
+
+![index page lighthouse testing image](assets/images/videogp-page-testing.png)
 
 # Bugs
 Debugging occurred during the process of development and testing as the website was built as testing was done constantly as errors "bugs" were detected during testing I would use dev tools to see and test what would solve the particular error that occurred and fix the errors as they occurred.
