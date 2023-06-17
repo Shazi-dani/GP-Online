@@ -50,7 +50,7 @@ header {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 #menu, #logo {
@@ -329,7 +329,7 @@ h3 {
     line-height: 75px;
     font-size: 110%;
     letter-spacing: 4px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 #menu-videogp li {
     float: right;
@@ -352,7 +352,7 @@ h3 {
     line-height: 75px;
     font-size: 110%;
     letter-spacing: 4px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 #menu-phonegp li {
     float: right;
@@ -432,7 +432,7 @@ h3 {
     line-height: 75px;
     font-size: 110%;
     letter-spacing: 4px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 #menu-register li {
     float: right;
@@ -586,7 +586,7 @@ input[type=tel] {
     line-height: 75px;
     font-size: 110%;
     letter-spacing: 4px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 #menu-signin li {
     float: right;
@@ -651,7 +651,7 @@ input[type=tel] {
     line-height: 75px;
     font-size: 110%;
     letter-spacing: 4px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 #menu-payment li {
     float: right;
@@ -719,7 +719,7 @@ input[type=card-cvc] {
 
 .container {
 
-    margin: auto,0;
+    margin: 0 auto;
     height: 500px;
     display: flex;
     flex-direction: row;
@@ -745,7 +745,7 @@ input[type=card-cvc] {
 
 .Includecontainer {
 
-    margin: auto,0;
+    margin: 0 auto;
     height: 1300px;
     display: flex;
     flex-direction: row;
@@ -756,7 +756,7 @@ input[type=card-cvc] {
 /** contact section**/
 #contact {
 
-    font: size 1.5em;;
+    font-size: 1.5em;
     font-family: 'lato',sans-serif;
    
     height: 250px;
@@ -894,7 +894,7 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 #menu, #logo {
@@ -1151,7 +1151,7 @@ h1, h2 {
     line-height: 75px;
     font-size: 110%;
     letter-spacing: 4px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 #menu-videogp li {
     float: right;
@@ -1174,7 +1174,7 @@ h1, h2 {
     line-height: 75px;
     font-size: 110%;
     letter-spacing: 4px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 #menu-phonegp li {
     float: right;
@@ -1254,7 +1254,7 @@ h1, h2 {
     line-height: 75px;
     font-size: 110%;
     letter-spacing: 4px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 #menu-register li {
     float: right;
@@ -1403,7 +1403,7 @@ input[type=tel] {
     line-height: 75px;
     font-size: 110%;
     letter-spacing: 4px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 #menu-signin li {
     float: right;
@@ -1469,7 +1469,7 @@ input[type=tel] {
     line-height: 75px;
     font-size: 110%;
     letter-spacing: 4px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 #menu-payment li {
     float: right;
@@ -1593,7 +1593,7 @@ h3 {
 /** contact section**/
 #contact {
 
-    font: size 1.5em;;
+    font-size: 1.5em;
     font-family: 'lato',sans-serif;
    
     height: 250px;
@@ -1828,12 +1828,8 @@ header {
     font-size: 4rem;
     line-height: 1;
     color: #003E53;
-    letter-spacing: 2;
-    
-    
-    
-
 }
+
 .one-third-width-column {
     width: 99%;
     display: block;
@@ -2013,6 +2009,7 @@ h3 {
     font-family: Oswald, sans-serif;
     color:#003E53;
     letter-spacing: 0.5px;
+    font-size: 1.8rem;
 }
 /**how its works and include section**/
 #how-its-work {
@@ -2042,6 +2039,15 @@ margin-bottom: 20px;
     margin-left: 20px;
 }
 
+.one, .two, .three {
+
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 #two {
 
     font-size: 2rem;
@@ -2050,6 +2056,7 @@ margin-bottom: 20px;
     margin-right: 20px;
     margin-left: 20px;
 }
+
 
 #three {
 
@@ -2090,7 +2097,7 @@ margin-bottom: 20px;
 }
 .container {
 
-    margin: auto,0;
+    margin: 0 auto;
     height: 2000%;
 
     display: flex;
@@ -2130,7 +2137,7 @@ margin-bottom: 20px;
     line-height: 75px;
     font-size: 110%;
     letter-spacing: 4px;
-    font-weight: 500px;
+    font-weight: 500;
 }
    
 #menu-register li {
@@ -2161,7 +2168,7 @@ margin-bottom: 20px;
       line-height: 75px;
       font-size: 110%;
       letter-spacing: 4px;
-      font-weight: 500px;
+      font-weight: 500;
   }
      
   #menu-signin li {
@@ -2202,7 +2209,7 @@ margin-bottom: 20px;
       line-height: 75px;
       font-size: 110%;
       letter-spacing: 4px;
-      font-weight: 500px;
+      font-weight: 500;
   }
      
   #menu-payment li {
@@ -2233,7 +2240,7 @@ margin-bottom: 20px;
     line-height: 75px;
     font-size: 100%;
     letter-spacing: 3px;
-    font-weight: 600px;
+    font-weight: 600;
   }
      
   #menu-phonegp li {
@@ -2265,7 +2272,7 @@ margin-bottom: 20px;
       line-height: 75px;
       font-size: 100%;
       letter-spacing: 3px;
-      font-weight: 600px;
+      font-weight: 600;
   }
      
   #menu-videogp li {
@@ -2563,7 +2570,7 @@ header {
     font-size: 2.5rem;
     line-height: 1;
     color: #003E53;
-    letter-spacing: 1.5;
+    
 }
 .one-third-width-column {
     display: block;
@@ -2878,7 +2885,7 @@ h3 {
     line-height: 75px;
     font-size: 110%;
     letter-spacing: 4px;
-    font-weight: 500px;
+    font-weight: 500;
 }
    
 #menu-register li {
@@ -2913,7 +2920,7 @@ h3 {
       line-height: 75px;
       font-size: 110%;
       letter-spacing: 4px;
-      font-weight: 500px;
+      font-weight: 500;
   }
      
   #menu-signin li {
@@ -2968,7 +2975,7 @@ h3 {
       line-height: 75px;
       font-size: 110%;
       letter-spacing: 4px;
-      font-weight: 500px;
+      font-weight: 500;
   }
      
   #menu-payment li {
@@ -3004,7 +3011,7 @@ h3 {
     line-height: 75px;
       font-size: 100%;
       letter-spacing: 3px;
-      font-weight: 600px;
+      font-weight: 600;
       width: 100%;
 }
 
@@ -3047,7 +3054,7 @@ h3 {
       line-height: 75px;
       font-size: 100%;
       letter-spacing: 3px;
-      font-weight: 600px;
+      font-weight: 600;
       width: 100%;
   }
      
@@ -3362,7 +3369,7 @@ header {
     font-size: 2.5rem;
     line-height: 1;
     color: #003E53;
-    letter-spacing: 1.5;
+    
 }
 .one-third-width-column {
 
@@ -3709,7 +3716,7 @@ h3 {
     line-height: 75px;
     font-size: 110%;
     letter-spacing: 4px;
-    font-weight: 500px;
+    font-weight: 500;
 }
    
 #menu-register li {
@@ -3744,7 +3751,7 @@ h3 {
       line-height: 75px;
       font-size: 110%;
       letter-spacing: 4px;
-      font-weight: 500px;
+      font-weight: 500;
   }
      
   #menu-signin li {
@@ -3819,7 +3826,7 @@ h3 {
       line-height: 75px;
       font-size: 110%;
       letter-spacing: 4px;
-      font-weight: 500px;
+      font-weight: 500;
   }
      
   #menu-payment li {
@@ -3880,7 +3887,7 @@ h3 {
     line-height: 75px;
       font-size: 100%;
       letter-spacing: 3px;
-      font-weight: 600px;
+      font-weight: 600;
       width: 100%;
 }
 
@@ -3923,7 +3930,7 @@ h3 {
       line-height: 75px;
       font-size: 100%;
       letter-spacing: 3px;
-      font-weight: 600px;
+      font-weight: 600;
       width: 100%;
   }
      
@@ -3980,7 +3987,7 @@ h3 {
     padding: 15px;
     background-color: rgba(90, 126, 138, 0.7);
     border-radius: 8px;
-    margin: 10px aut
+    margin: 10px auto;
 	
   }
 
