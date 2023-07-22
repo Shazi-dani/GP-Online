@@ -39,11 +39,6 @@ header {
     margin-left: 20px;
 }
 
-#phone-logo {
-
-    display: none;
-}
-
 
 /* navigation links */
 
@@ -72,11 +67,6 @@ header {
     border-bottom: 1px solid #003E53;
 }
 .dropdown {
-
-    display: none;
-}
-
-.mobiledropdown {
 
     display: none;
 }
@@ -209,7 +199,6 @@ header {
     margin-top: 2rem;
    
     padding: 0;
-    margin: 0;
     margin: 0 auto;
     width: 80%;
     display: flex;
@@ -228,13 +217,8 @@ header {
     text-decoration: none;
     border: 1px solid transparent;
 
-
     vertical-align: middle; 
-    
-    
-
     cursor: pointer;
-    
     
     border-radius: 6.1875rem;
     line-height:2.5;
@@ -366,7 +350,7 @@ h3 {
     color: #003E53;
 }
 
-#menu-videphonegpogp a:hover {
+#menu-phonegp a:hover {
     border-bottom: 1px solid #003E53;
 }
 
@@ -563,7 +547,7 @@ input[type=tel] {
     font-weight: 400;
 }
 
-.Signin , .register , .payment{
+.Signin , .register {
 
     padding-left: 10px;
 	margin: 0 auto;
@@ -604,112 +588,7 @@ input[type=tel] {
     border-bottom: 1px solid #003E53;
 }
 
-.paymentbtn{
-    text-align: center;
-    background-color: #003E53;
-    color: #fff;
-    border-color: #003E53;
-    text-decoration: none;
-    border: 1px solid transparent;
 
-   display: inline-block;
-    vertical-align: middle; 
-     position: relative;
-
-
-    cursor: pointer;
-    
-    
-    border-radius:1rem;
-    line-height:1.5;
-    max-width: 350px;
-   
-    margin-left: 15rem;
-    margin-right: 0.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 2rem;
-   
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
-    
-}
-
-/**payment page styling**/
-
-#payment-form {
-
-    width: 700px;
-	padding: 25px;
-    background-color: rgba(90, 126, 138, 0.7);
-	border-radius: 8px;
-	margin: 25px auto;
-    align-self: center;
-	
-}
-
-#menu-payment {
-    line-height: 75px;
-    font-size: 110%;
-    letter-spacing: 4px;
-    font-weight: 500;
-}
-#menu-payment li {
-    float: right;
-    margin-right: 30px;
-    list-style-type: none;
-    
-}    
-
-#menu-payment a {
-    text-decoration: none;
-    color: #003E53;
-}
-
-#menu-payment a:hover {
-    border-bottom: 1px solid #003E53;
-}
-.inline-block
-{
-    display: inline-block;
-    
-}
-#paynow {
-
-    height: 40px;
-    width: 95%;
-    padding-left: 3px;
-
-}
-
-.card-cvc {
-
-    margin-left: 3rem;
-    margin-top: 0.5rem;
-}
-
-.card-number {
-
-    margin-left: -3rem;
-    margin-top: 0.5rem;
-
-}
-
-input[type=card]  {
-
-    height: 30px;
-    width: 100%;
-    padding-left: 5px;
-
-	
-}
-
-input[type=card-cvc] {
-
-    height: 30px;
-    width: 100%;
-    padding-left: 5px;
-
-}
 /**how its works and include section**/
 .include-section {
 
@@ -741,6 +620,7 @@ input[type=card-cvc] {
     height: 200px;
     width: 200px;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .Includecontainer {
@@ -882,12 +762,6 @@ h1, h2 {
     float: left;
     margin-left: 20px;
 }
-
-#phone-logo {
-
-    display: none;
-}
-
 
 /* navigation links */
 
@@ -1188,7 +1062,7 @@ h1, h2 {
     color: #003E53;
 }
 
-#menu-videphonegpogp a:hover {
+#menu-phonegp a:hover {
     border-bottom: 1px solid #003E53;
 }
 
@@ -1421,120 +1295,13 @@ input[type=tel] {
     border-bottom: 1px solid #003E53;
 }
 
-.paymentbtn{
-    text-align: center;
-    background-color: #003E53;
-    color: #fff;
-    border-color: #003E53;
-    text-decoration: none;
-    border: 1px solid transparent;
-
-   display: inline-block;
-   vertical-align: middle; 
-   position: relative;
-
-
-    cursor: pointer;
-    
-    
-    border-radius:1rem;
-    line-height:1.5;
-    max-width: 350px;
-    font-size: 1.5rem;
-   
-    margin-left: 15rem;
-    margin-right: 0.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 2rem;
-   
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
-    
-}
-
-/**payment page styling**/
-
-#payment-form {
-
-    width: 700px;
-	padding: 25px;
-    background-color: rgba(90, 126, 138, 0.7);
-	border-radius: 8px;
-	margin: 25px auto;
-    align-self: center;
-	
-}
-
-#menu-payment {
-    line-height: 75px;
-    font-size: 110%;
-    letter-spacing: 4px;
-    font-weight: 500;
-}
-#menu-payment li {
-    float: right;
-    margin-right: 30px;
-    list-style-type: none;
-    
-}    
-
-#menu-payment a {
-    text-decoration: none;
-    color: #003E53;
-}
-
-#menu-payment a:hover {
-    border-bottom: 1px solid #003E53;
-}
-.inline-block
-{
-    display: inline-block;
-    
-}
-#paynow {
-    height: 45px;
-    width: 95%;
-    padding-left: 3px;
-    font-size: 1.5rem;
-
-}
-
-.card-cvc {
-
-    margin-left: 3rem;
-    margin-top: 0.5rem;
-}
-
-.card-number {
-
-    margin-left: -3rem;
-    margin-top: 0.5rem;
-
-}
-
-input[type=card]  {
-
-    height: 30px;
-    width: 100%;
-    padding-left: 5px;
-
-	
-}
-
-input[type=card-cvc] {
-
-    height: 30px;
-    width: 100%;
-    padding-left: 5px;
-
-}
-
 /* How its work section */
 
 h3 {
     font-family: Oswald, sans-serif;
     color:#003E53;
     letter-spacing: 0.5px;
+   
 }
 
 .img-work-section {
@@ -1698,15 +1465,14 @@ footer > p {
     body {
         margin: auto 0;
         font-family: 'lato',sans-serif;
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: 300;
-        line-height: 1.3;
+        line-height: 1.4;
         color: #333;
         text-align: left;
         background-color: rgb(233, 238, 247);
         width: 100%;
         max-height: 150%;
-        
 
     }
 
@@ -1736,9 +1502,6 @@ header {
 
     
 }
-#phone-logo {
-    display: none;
-}
 
 
 /* navigation links */
@@ -1752,13 +1515,24 @@ header {
    display: none;
     
 }    
-
-.mobiledropdown {
+#menu-phonegp {
 
     display: none;
 }
 
+#menu-videogp {
 
+    display: none;
+}
+
+#laptop-contact {
+    display: block;
+  }
+
+#ph-contact{
+
+    display: none;
+  }
 
 .dropbtn {
     border: none;
@@ -1809,9 +1583,8 @@ header {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-
   
-
+  
 /*main heading*/
 #heading {
     display: block;
@@ -1842,7 +1615,7 @@ header {
 .main-heading-text{
 
     color: #003E53;
-    font-size: 3rem;
+    font-size: 2.6rem;
     margin-left: 0.1em;
     margin-right: 0.5px;
     padding-left: 2px;
@@ -2188,111 +1961,36 @@ margin-bottom: 20px;
   #menu-signin a:hover {
       border-bottom: 1px solid #003E53;
   }
-/**payment responsive**/
-#payment-form {
-    width: 80%;
-    padding: 25px;
-    background-color: rgba(90, 126, 138, 0.7);
-    border-radius: 8px;
-    margin: 25px auto;
-    align-self: center;
-}
 
-.payment-responsive {
-
-    width: 100%;
-    height: 100%;
-    font-size: 190%;
-  }
-
-  #menu-payment {
-      line-height: 75px;
-      font-size: 110%;
-      letter-spacing: 4px;
-      font-weight: 500;
-  }
-     
-  #menu-payment li {
-      float: right;
-      margin-right: 10px;
-      list-style-type: none;
-      margin-top: 40px;
-      
-  }    
-  
-  #menu-payment a {
-      
-      text-decoration: none;
-      color: #003E53;
-  }
-  
-  #menu-payment a:hover {
-      border-bottom: 1px solid #003E53;
-  }
   /** responsive telephone GP booking page**/
   
   .phonegp-responsive {
-    width: 78%;
-    height: 90%;
-    font-size: 120%;
-  }
-  #menu-phonegp {
-    line-height: 75px;
-    font-size: 100%;
-    letter-spacing: 3px;
-    font-weight: 600;
-  }
-     
-  #menu-phonegp li {
-      float: right;
-      margin-right: 10px;
-      list-style-type: none;
-      margin-top: 40px;
+    width: 100%;
+    height: 120%;
+   
     
-  }    
-  
-  #menu-phonegp a {
-      
-      text-decoration: none;
-      color: #003E53;
   }
-  
-  #menu-phonegp a:hover {
-      border-bottom: 1px solid #003E53;
-  }
+ 
+
+    .text-input  {
+        display: block;
+        color: #003E53;
+        width: 100%;
+        height: 25px;
+        margin: 5px 10px 20px 10px;
+        font-size: 1.8;
+        font-weight: 800;
+        line-height: 1.8;
+    }
+
 /**responsive video gp booking page**/
 .videogp-responsive {
 
-    width: 78%;
-    height: 90%;
-    font-size: 120%;
+    width: 100%;
+    height: 120%;
   }
 
-  #menu-videogp {
-      line-height: 75px;
-      font-size: 100%;
-      letter-spacing: 3px;
-      font-weight: 600;
-  }
-     
-  #menu-videogp li {
-      float: right;
-      margin-right: 10px;
-      list-style-type: none;
-      margin-top: 40px;
-      
-  }    
   
-  #menu-videogp a {
-      
-      text-decoration: none;
-      color: #003E53;
-  }
-  
-  #menu-videogp a:hover {
-      border-bottom: 1px solid #003E53;
-  }
-
 /** contact section**/
 #contact {
 
@@ -2417,10 +2115,12 @@ footer > p {
     margin: 70px 5% 0 0;
     color: #fff;
     background-color: rgba(0,62,83, 0.6);
-    max-width: 400px;
+    max-width: 50%;
+    height: 60%;
     position: absolute;
     left: 5%;
     padding: 40px;
+    
 }
 
 
@@ -2459,101 +2159,113 @@ footer > p {
 
     /*headings and logo*/
 
-h1, h2 {
-    font-family: Oswald, sans-serif;
-    color:#003E53;
-    letter-spacing: 1px;
-}
-
-header {
-
-    width: 100%;
-    height: 100px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-
-
-/* navigation links */
-
-#menu {
-    display: none;
-}
-
-
-#menu li {
-   display: none;
+    h1, h2 {
+        font-family: Oswald, sans-serif;
+        color:#003E53;
+        letter-spacing: 1px;
+    }
     
-}    
-
-#logo {
-
-    display: none;
-}
-
-
-  .mobiledropdownbtn {
-
-    border: none;
-    cursor: pointer;
-    margin: 0 auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    display: block;
-    min-width: 100%;
-    height: 70px;
-    font-family: Oswald, sans-serif;
-    color: #003E53;
-    text-align: center;
-    line-height: 1px;
-    letter-spacing: 1px;
-    font-weight: 900;
-    background-color: rgb(233, 238, 247);
-    font-size: 7rem;  
-  }
-
-  .dropdown {
-
-    display: none;
-  }
-  
-  .mobiledropdown {
-    position: relative;
-    display: block;
+    header {
     
-  }
-  
-  .mobiledropdown-content {
+            width: 99%;
+            height: 100px;
+            margin-bottom: 20px;
+        
+    }
+    
+    #logo {
+       font-size: 4rem;
+       line-height: 50px;
+       margin-top: 50px;
+       margin-left: 30px;
+       margin-bottom: 50px;
+    
+        
+    }
+   
+    
+    
+    /* navigation links */
+    
+    #menu {
+        display: none;
+    }
+    
+    
+    #menu li {
+       display: none;
+        
+    }    
+    #menu-phonegp {
+    
+        display: none;
+    }
+    
+    #menu-videogp {
+    
+        display: none;
+    }
+    
+    
+    .dropbtn {
+        border: none;
+        cursor: pointer;
+        margin-right: 20px;
+        margin-top: 30px;
+        
+      }
+    
+      .dropbtn img {
+    
+        display: block;
+        width: 90px;
+        height: 90px;
+    
+      }
+      
+      .dropdown {
+        float: right;
+        display: block;
+        margin-top: 10px;
+        margin-right: 10px;
+        
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgba(179, 208, 241, 0.9);
+        color:#003E53;
+        min-width: 300px;
+        box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        right: 0;
+    
+       }
+      
+      .dropdown-content a {
+        color: #003E53;
+        padding: 8px 8px;
+        text-decoration: none;
+        display: block;
+        border: solid 0.1em #003E53;
+      }
+      
+      .dropdown-content a:hover {background-color: #f1f1f1}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
 
-    display: none;
-    position: absolute;
-    background-color: rgba(179, 208, 241, 0.9);
-    color:#003E53;
-    min-width: 100%;
-    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    margin: 0 auto;
-
-   }
-  
-  .mobiledropdown-content a {
-    color: #003E53;
-    padding: 8px 8px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    border: solid 0.1em #003E53;
-  }
-  
-  .mobiledropdown-content a:hover {background-color: #f1f1f1}
-  
-  .mobiledropdown:hover .mobiledropdown-content {
-    display: block;
-  }
-
-  
-
-/*main heading*/
+      #laptop-contact {
+        display: none;
+      }
+    
+      #ph-contact{
+    
+        display: block;
+      }
+      
 #heading {
 
     display: block;
@@ -2680,9 +2392,6 @@ header {
     margin-top: 2rem;
    
     padding: 0;
-    /**margin-left: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;**/
     margin: 0 auto;
     width: 85%;
     
@@ -2857,18 +2566,6 @@ h3 {
     text-align: center;
 }
 /**registration and from section**/
-#phone-logo {
-
-    margin: 0 auto;
-    margin-top: 15px;
-    display: block;
-    min-width: 100%;
-    height: 10px;
-    text-align: center;
-    font-size: 3.5rem ;
-    line-height: 75px;
-    
-}
 
 .register-responsive a {
     text-decoration: none;
@@ -2940,61 +2637,7 @@ h3 {
   #menu-signin a:hover {
       border-bottom: 1px solid #003E53;
   }
-/**payment responsive**/
 
-#payment-form {
-    width: 80%;
-    padding: 25px;
-    background-color: rgba(90, 126, 138, 0.7);
-    border-radius: 8px;
-    margin: 25px auto;
-    align-self: center;
-}
-
-.payment-responsive {
-
-    width: 100%;
-    height: 100%;
-    font-size: 190%;
-  }
-
-  
-  .payment-responsive a {
-    text-decoration: none;
-}
-
-#paynow {
-    height: 45px;
-    width: 95%;
-    padding-left: 3px;
-    font-size: 1.5rem;
-
-}
-
-  #menu-payment {
-      line-height: 75px;
-      font-size: 110%;
-      letter-spacing: 4px;
-      font-weight: 500;
-  }
-     
-  #menu-payment li {
-      float: right;
-      margin-right: 10px;
-      list-style-type: none;
-      margin-top: 40px;
-      
-  }    
-  
-  #menu-payment a {
-      
-      text-decoration: none;
-      color: #003E53;
-  }
-  
-  #menu-payment a:hover {
-      border-bottom: 1px solid #003E53;
-  }
   /** responsive telephone GP booking page**/
   
   .phonegp-responsive {
@@ -3004,37 +2647,7 @@ h3 {
     line-height: 1.7em;
   }
   
-  .phonegp-responsive a {
-    text-decoration: none;
-}
-  #menu-phonegp {
-    line-height: 75px;
-      font-size: 100%;
-      letter-spacing: 3px;
-      font-weight: 600;
-      width: 100%;
-}
-
-     
-#menu-phonegp li {
-    
-    float: right;
-    margin-right: 10px;
-    list-style-type: none;
-    margin-top: 40px;
-
-  }    
   
-  #menu-phonegp a {
-      
-      text-decoration: none;
-      margin: 0 auto;
-      color: #003E53;
-  }
-  
-  #menu-phonegp a:hover {
-      border-bottom: 1px solid #003E53;
-  }
 /**responsive video gp booking page**/
 .videogp-responsive {
 
@@ -3045,36 +2658,6 @@ h3 {
 
   }
 
-  .videogp-responsive a {
-    text-decoration: none;
-  }
-  
-
-  #menu-videogp {
-      line-height: 75px;
-      font-size: 100%;
-      letter-spacing: 3px;
-      font-weight: 600;
-      width: 100%;
-  }
-     
-  #menu-videogp li {
-      float: right;
-      margin-right: 10px;
-      list-style-type: none;
-      margin-top: 40px;
-      
-  }    
-  
-  #menu-videogp a {
-      
-      text-decoration: none;
-      color: #003E53;
-  }
-  
-  #menu-videogp a:hover {
-      border-bottom: 1px solid #003E53;
-  }
 
   /**book gp form styling **/
 .form-section {
@@ -3090,15 +2673,21 @@ h3 {
 }
 
 /** signup form styling**/
-.bookgp-form {
-    margin: 70px 5% 0 0;
-    color: #fff;
-    background-color: rgba(0,62,83, 0.6);
-    max-width: 60%;
-    position: absolute;
-    left: 5%;
-    padding: 40px;
-}
+
+    .bookgp-form {
+        margin: 70px 5% 0 0;
+        color: #fff;
+        background-color: rgba(0,62,83, 0.6);
+        max-width: 60%;
+        height: 65%;
+        position: absolute;
+        left: 5%;
+        padding: 40px;
+        font-size: 1.3rem;
+        
+    }
+
+
 
 
 /** register form styling starts here**/
@@ -3275,6 +2864,15 @@ header {
 
 /* navigation links */
 
+#laptop-contact {
+    display: none;
+  }
+
+#ph-contact{
+
+    display: block;
+  }
+
 #menu {
     display: none;
 }
@@ -3286,70 +2884,89 @@ header {
 }    
 
 #logo {
-
+    font-size: 4rem;
+    line-height: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+ 
+     
+ }
+ 
+ 
+ /* navigation links */
+ 
+ #menu {
+     display: none;
+ }
+ 
+ 
+ #menu li {
     display: none;
-}
-
-
-.mobiledropdownbtn {
-
-    border: none;
-    cursor: pointer;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: block;
-    min-width: 100%;
-    height: 70px;
-    font-family: Oswald, sans-serif;
-    color: #003E53;
-    text-align: center;
-    line-height: 1px;
-    letter-spacing: 1px;
-    font-weight: 800;
-    background-color: rgb(233, 238, 247);
-    font-size: 5rem;  
-  }
-
-  .dropdown {
-
-    display: none;
-  }
-  
-  .mobiledropdown {
-    position: relative;
-    display: block;
-    
-  }
-  
-  .mobiledropdown-content {
-
-    display: none;
-    position: absolute;
-    background-color: rgba(179, 208, 241, 0.9);
-    color:#003E53;
-    min-width: 100%;
-    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    margin: 0 auto;
-
+     
+ }    
+ #menu-phonegp {
+ 
+     display: none;
+ }
+ 
+ #menu-videogp {
+ 
+     display: none;
+ }
+ 
+ 
+ 
+ .dropbtn {
+     border: none;
+     cursor: pointer;
+     margin-right: 20px;
+     margin-top: 30px;
+     
    }
-  
-  .mobiledropdown-content a {
-    color: #003E53;
-    padding: 8px 8px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    border: solid 0.1em #003E53;
-  }
-  
-  .mobiledropdown-content a:hover {background-color: #f1f1f1}
-  
-  .mobiledropdown:hover .mobiledropdown-content {
-    display: block;
-  }
-
+ 
+   .dropbtn img {
+ 
+     display: block;
+     width: 100px;
+     height: 100px;
+ 
+   }
+   
+   .dropdown {
+     float: right;
+     display: block;
+     margin-top: 10px;
+     margin-right: 10px;
+     
+   }
+   
+   .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: rgba(179, 208, 241, 0.9);
+     color:#003E53;
+     min-width: 300px;
+     box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+     right: 0;
+ 
+    }
+   
+   .dropdown-content a {
+     color: #003E53;
+     padding: 8px 8px;
+     text-decoration: none;
+     display: block;
+     border: solid 0.1em #003E53;
+   }
+   
+   .dropdown-content a:hover {background-color: #f1f1f1}
+   
+   .dropdown:hover .dropdown-content {
+     display: block;
+   }
+   
   
 
 /*main heading*/
@@ -3484,9 +3101,6 @@ header {
     margin-top: 2rem;
    
     padding: 0;
-    /**margin-left: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;**/
     margin: 0 auto;
     width: 85%;
 }
@@ -3688,18 +3302,7 @@ h3 {
     text-align: center;
 }
 /**registration and from section**/
-#phone-logo {
 
-    margin: 0 auto;
-    margin-top: 15px;
-    display: block;
-    min-width: 100%;
-    height: 10px;
-    text-align: center;
-    font-size: 3.5rem ;
-    line-height: 75px;
-    
-}
 
 .register-responsive a {
     text-decoration: none;
@@ -3771,90 +3374,7 @@ h3 {
   #menu-signin a:hover {
       border-bottom: 1px solid #003E53;
   }
-/**payment responsive**/
 
-#payment-form {
-    width: 80%;
-    padding: 25px;
-    background-color: rgba(90, 126, 138, 0.7);
-    border-radius: 8px;
-    margin: 25px auto;
-    align-self: center;
-}
-#paynow {
-    height: 45px;
-    width: 95%;
-    padding-left: 3px;
-    font-size: 1.5rem;
-
-}
-.payment-responsive {
-
-    width: 100%;
-    height: 100%;
-    font-size: 190%;
-  }
-
-  
-  .payment-responsive a {
-    text-decoration: none;
-}
-
-.paymentbtn {
-
-    text-align: center;
-    background-color: #003E53;
-    color: #fff;
-    border-color: #003E53;
-    text-decoration: none;
-    border: 1px solid transparent;
-    display: block;
-    cursor: pointer;
-    border-radius: 1rem;
-    line-height: 1.5;
-    max-width: 380px;
-    /* margin-right: 0.5rem; */
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 2rem;
-    margin: 0 auto;
-    margin-left: -10px;
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
-}
-
-  #menu-payment {
-      line-height: 75px;
-      font-size: 110%;
-      letter-spacing: 4px;
-      font-weight: 500;
-  }
-     
-  #menu-payment li {
-      float: right;
-      margin-right: 10px;
-      list-style-type: none;
-      margin-top: 40px;
-      
-  }    
-  
-  #menu-payment a {
-      
-      text-decoration: none;
-      color: #003E53;
-  }
-  
-  #menu-payment a:hover {
-      border-bottom: 1px solid #003E53;
-  }
-.card-number{
-
-    margin-left: -3rem;
-    margin-top: 0.5rem;
-    height: 30px;
-     margin: 0 auto;
-    
-}
- 
   /** responsive telephone GP booking page**/
   
   .phonegp-responsive {
@@ -3864,25 +3384,7 @@ h3 {
     line-height: 1.7em;
   }
   
-  .card-number{
-
-    margin-left: -3rem;
-    margin-top: 0.5rem;
-    height: 30px;
-     margin: 0 auto;
-    
-}
-.card-cvc {
-
-    margin-left: -3rem;
-    margin-top: 0.5rem;
-    height: 30px;
-     margin: 0 auto;
-    
-}
-  .phonegp-responsive a {
-    text-decoration: none;
-}
+  
   #menu-phonegp {
     line-height: 75px;
       font-size: 100%;
@@ -3901,16 +3403,7 @@ h3 {
 
   }    
   
-  #menu-phonegp a {
-      
-      text-decoration: none;
-      margin: 0 auto;
-      color: #003E53;
-  }
-  
-  #menu-phonegp a:hover {
-      border-bottom: 1px solid #003E53;
-  }
+
 /**responsive video gp booking page**/
 .videogp-responsive {
 
@@ -3921,36 +3414,7 @@ h3 {
 
   }
 
-  .videogp-responsive a {
-    text-decoration: none;
-  }
-  
-
-  #menu-videogp {
-      line-height: 75px;
-      font-size: 100%;
-      letter-spacing: 3px;
-      font-weight: 600;
-      width: 100%;
-  }
-     
-  #menu-videogp li {
-      float: right;
-      margin-right: 10px;
-      list-style-type: none;
-      margin-top: 40px;
-      
-  }    
-  
-  #menu-videogp a {
-      
-      text-decoration: none;
-      color: #003E53;
-  }
-  
-  #menu-videogp a:hover {
-      border-bottom: 1px solid #003E53;
-  }
+ 
 
   /**book gp form styling **/
 .form-section {

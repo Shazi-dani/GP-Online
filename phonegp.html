@@ -15,14 +15,28 @@
 <!--header start here -->
 <div class="phonegp-responsive">
     <header>
-        <a href="index.html"><h1 id="phone-logo"> GP Online </h1></a>
         <a href="index.html"><h1 id="logo"> GP Online </h1></a>
     <nav>
             <ul id="menu-phonegp" class="font-weight-bold font-size">
                 <li><a href="register.html">Register / </a><a href="signin.html">Sign In</a></li>
+                <li><a href="index.html#contact" aria-label="Go to contact section">Contact</a></li>
+                <li><a href="index.html#how-its-work" aria-label="Go to How its work section">How its Work</a></li>
                 <li><a href="index.html">Home</a></li> 
             </ul>
         </nav>
+        <!--tablet dropdown -->
+        <div class="dropdown">
+            <button class="dropbtn"><img src="assets/images/nev-image.jpg" alt="dropdown button image"></button>
+            <div class="dropdown-content font-weight-bold font-size">
+                <a href="index.html">Home</a>
+                <a href="index.html#how-its-work" aria-label="Go to How its work section">How its Work</a>
+                <a href="index.html#contact" aria-label="Go to Contact section" id="laptop-contact">Contact</a>
+                <a href="index.html#phone-contact" aria-label="Go to Contact section" id="ph-contact">Contact</a>
+                <a href="register.html">Register</a>
+                <a href="signin.html">Sign In</a>
+            
+            </div>
+        </div>
     </header>
 <!--booking form section starts here-->
     <section class="form-section">
@@ -50,9 +64,6 @@
         <div>
         <button class="join-button" id="reserve-button" onclick="reserveTimeslot(event)" disabled="disabled">
                 Reserve Appointment & Next</button>                     
-        </div>
-        <div class="payment">
-            <span><a href="payment.html" class="paymentbtn"><strong>Payment here</strong></a></span>
         </div>
 
     </form>
