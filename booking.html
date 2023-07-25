@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="assets/css/style.css">
 
         
-    <title>Register Here</title>
+    <title>Booking Form</title>
 </head>
 <body>
 <!--header start here -->
@@ -27,7 +27,7 @@
 <form id="register-form" onsubmit="openPopup()" method="dialog">
 
 	<div>
-		<h2 style="text-align:center;">Register here</h2>
+		<h2 style="text-align:center;">Booking Form</h2>
         
 		<div>
 			<label for="name-field" class="block-label">Full Name</label>
@@ -38,12 +38,11 @@
 			<input id="email-field" type="email" name="email" placeholder="Your email" required>
 		</div>
         <div>
-            <label for="password" class="block-label">Password</label>
-            <input id="password" type="password"  name="password" placeholder="Your password" required>
+            <label for="phone" class="block-label">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+            <div>  
         </div>
-        <label for="phone" class="block-label">Phone Number</label>
-        <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
-        <div>
+
 		<label for="age" class="block-label">Age</label>
 		<select id="age" name="age" required>
             <option value=''>Select</option>
@@ -69,18 +68,16 @@
                     <label for="other">Other</label>
                 </div>
     
-        <input type="submit"   value="Register Here">
+        <input type="submit"   value="Book Here">
         <div class="popup" id="popup">
            <img src="assets/images/gponline-image.jpg" alt="doctor picture">
-            <h2>Your are succesfully register now. Thanks!</h2>
-            <p>Sign In now and do payment for GP Online booking</p>
+            <h2>Reservetion for a GP is Done succesfully. Thanks!</h2>
+            <p>You will receive a confirmation email including all details about your booking</p>
            
             <button type="button" onclick="closePopup()">OK</button>
         </div>
 		<input type="reset"    value="Reset Form">
-        <div class="Signin">
-            <span>Already have an account? <a href="signin.html">Sign In</a></span>
-        </div>
+    
         
 	</div>
 </form>
@@ -94,7 +91,7 @@
     
     function closePopup() {
       popup.classList.remove("open-popup");
-      window.open("signin.html")
+      window.open("index.html")
     }
     
 </script>

@@ -18,7 +18,7 @@
         <a href="index.html"><h1 id="logo"> GP Online </h1></a>
     <nav>
             <ul id="menu-phonegp" class="font-weight-bold font-size">
-                <li><a href="register.html">Register / </a><a href="signin.html">Sign In</a></li>
+                <li><a href="index.html#book-gp" aria-label="Go to booking section">Book Consultation</a></li>
                 <li><a href="index.html#contact" aria-label="Go to contact section">Contact</a></li>
                 <li><a href="index.html#how-its-work" aria-label="Go to How its work section">How its Work</a></li>
                 <li><a href="index.html">Home</a></li> 
@@ -32,15 +32,14 @@
                 <a href="index.html#how-its-work" aria-label="Go to How its work section">How its Work</a>
                 <a href="index.html#contact" aria-label="Go to Contact section" id="laptop-contact">Contact</a>
                 <a href="index.html#phone-contact" aria-label="Go to Contact section" id="ph-contact">Contact</a>
-                <a href="register.html">Register</a>
-                <a href="signin.html">Sign In</a>
+                <a href="index.html#book-gp" aria-label="Go to booking section">Book Consultation</a>
             
             </div>
         </div>
     </header>
 <!--booking form section starts here-->
     <section class="form-section">
-        <form  class="bookgp-form" action="https://formdump.codeinstitute.net" method="POST">
+        <form  class="bookgp-form" action="booking.html" method="GET">
         <div>
         <h2>Reservation</h2>
         <p>Fill in the required details asked in the Reservation,
@@ -61,9 +60,10 @@
             <label for="app-date-time" class="form-control text-input"><strong>Appointment Date & time</strong></label>
             <input id="app-date-time" type="datetime-local" name="app-date-time" required> 
         </div>
-        <div>
-        <button class="join-button" id="reserve-button" onclick="reserveTimeslot(event)" disabled="disabled">
-                Reserve Appointment & Next</button>                     
+        <div>   
+        <button type="submit"  class="join-button">
+                Reserve Appointment & Next</button>
+                           
         </div>
 
     </form>
