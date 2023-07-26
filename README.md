@@ -19,20 +19,27 @@ Wireframes image here
 ![Home page navigation bar image](assets/images/gponline-wireframe.png)
 
 ## Features
-This Usefull website presents many diferent sections for how some one book a gp phone consultation or vedio consultation after registration and signup and what includes in these consultation like "A complete GP consultation", "digital prescription" , "medical Cert" and "referral letters".
+This Usefull website presents many diferent sections for how some one book a gp phone consultation or vedio consultation and what includes in these consultation like "A complete GP consultation", "digital prescription" , "medical Cert" and "referral letters".
 [View GP Online website on Github Page](https://github.com/Shazi-dani/GP-Online.git)
 
 ## Navigation Bar
-The entire responsive navigation bar is included on all five pages and is different in each one for ease of navigation.At home page its contains Logo and links to the Home Page, How its work, Contact,Register and Sign In page.
+The entire responsive navigation bar is included on all  pages and is different in each one for ease of navigation.At home page its contains Logo and links to the Home Page, How its work, Contact,and book Consultation.
 ![Home page navigation bar image](assets/images/header-sec-image.png)
 
 
-At registration and sign In page include Logo , home page link 
-![registration and sign In navigation bar image](assets/images/register&signin-page-img.png)
+Booking page include Logo , home page link 
+![booking form page nevigation bar image](assets/images/bookform-header.png)
 
 
-and at GP phone and vedio consultation page includes Logo,Home and Registration links are available. With the help of this navigation, users will be able to move between pages on all devices without constantly pressing the "back" button to return to the previous page.
-![GP telephone and vedio consultation page navigation bar image](assets/images/gpbooking-page-header-img.png)
+and at GP phone and vedio consultation page includes Logo and links to the Home Page, How its work, Contact,and book Consultation, With the help of this navigation, users will be able to move between pages on all devices without constantly pressing the "back" button to return to the previous page.
+![GP telephone and vedio consultation page navigation bar image](assets/images/header-sec-image.png)
+
+## Small screen nevigation bar
+
+I used dropdown neviagation bar for all pages in small screens.
+
+
+![navigation bar dropdown image for all pages](assets/images/header-dropdown.png)
 
 
 ## Landing Page Main Image section
@@ -69,32 +76,28 @@ The user benefits from the footer since it encourages them to stay engaged on so
 ![Footer image here](assets/images/footer-sec-img.png)
 
 
-## Registration Page
-This page will allows the user do registration through a form. After registration completion popup tab opeb which confirms registration is done and redirect user to sign in page.
-![Registration Page image](assets/images/register-image.png)
-
-
-## Sign In Page
-This page allows the user to sign in and after sign in they can book GP consultation and do payment.
-![Sign In Page image](assets/images/signin-page-img.png)
-
-
 ## Telephone Consultation page
 
-This page allows the user to easily book a Telephone consultation with one of our GP. First they have to select type of consultation then choose date and time,Do payment after booking.this page also include payment page link .
+This page allows the user to easily book a Telephone consultation with one of our GP.After selecting type of consultation then choose date and time and when user press reservetion button it will bring the user to booking gp form page.
 ![Telephone reservation Page image](assets/images/tele-res-page.png)
 
 
 ## Video Consultation page
  
-This page allows the user to easily book a Video consultation with one of our GP. First they have to select type of consultation then choose date and time,Do payment after booking.this page also include payment page link.
+This page allows the user to easily book a Video consultation with one of our GP. After selecting type of consultation then choose date and time and when user press reservetion button it will bring the user to booking gp form page.
 ![Video reservation Page image](assets/images/vid-res-page.png)
 
 
-## Payment page
+## Booking Form Page
+This page will allows the user to book a GP With gp booking form. After completion  form when user press on book now button a popup tab open which confirms reserveation is done and redirect user to home page after reservation.
+![Booking form Page image](assets/images/booking-form.png)
 
-After booking consultation the user have to do payment through payment page.this page include payments details form.
-![Payment page image](assets/images/payment-page-img.png)
+## Popup Tab
+
+when reservation done and user press the book here button on booking form a pop up meassage appears on screen.
+
+![Pop Up message image](assets/images/popup-img.png)
+
 
 
 ## Features Left to Implement
@@ -104,7 +107,7 @@ Technologies / Support Used like
 * when user sign in it will redirect the user to a user dashboard which will have booking appointment link,payment link for doing payments and all details related to their health ,booking time date and time ,prescriptions order details, referrals letters details etc
 
 * when user Do payment they will received an email related to their consultation date ,time and also received a questionnare.
-Before we prescribe you the required medication, we would like to check if this product is suitable for you. You will be asked to fill in a short online questionnare. Once completed Based on the questionnare answer, our GP will either recommend a treatment (send a prescription directly to the pharmacy or a medical certificate directly to you, if the case) or send you a referral letter for a specialist or emergecny department for consultation, Xrays,Ultaround or Scans.
+Before we prescribe you the required medication, we would like to check if this product is suitable for you. user will be asked to fill in a short online questionnare. Once completed Based on the questionnare answer, our GP will either recommend a treatment (send a prescription directly to the pharmacy or a medical certificate directly to you, if the case) or send you a referral letter for a specialist or emergecny department for consultation, Xrays,Ultaround or Scans.
 
 * prescripition order section for ordering prescription directlly without consultation.
 * few java quries left for making website more responsive
@@ -120,7 +123,7 @@ Love Running provided the main structure and information for my Header and how i
 * Codeanywhere - used to code within and provided backups of all my code.
 * GitHub - for my repository and external project deployment.
 * Google Fonts and font awesome - for my font choose for the project.
-* Youtube vedios - for understanding flex,responsive website and payment details entering form.
+* Youtube vedios - for understanding flex,responsive website and for popup java script code.
 * Lucid App - used for wireframe.(https://lucid.app/lucidchart/a325f522-4f26-47cd-b215-18d64c454b19/edit?invitationId=inv_0aede0b5-4bf6-4b57-89ea-ef34ddbe5e7f&page=0_0#)
 * Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
@@ -135,11 +138,8 @@ Testing During development of the pages was done throughout the project to see h
 |Header Title       |To go to Home Page    |Click On |Taken to Home Page       |
 |Menu Bar           |To go to Named page   |Click On |Taken to Named Page      |
 |Menue Bar          |To go to External Link|Click On |Taken to External Link   |
-|Image links        |To go to Named page   |Click On |Taken to Named Page      |
 |Internal links     |To go to Section      |Click On |Taken to Section of Page |
 |External Links     |To go to External Link|Click On |Taken to External Link   |
-|YouTube Video      |Play on request       |Click On |Plays on user request    |
-|Google Map         |External if requested |Click On |External on user request |
 
 ### User Testing
 
@@ -169,13 +169,9 @@ As a user I was able to undersatnd how to use the site and what is the purpose o
 
 ![index page lighthouse testing image](assets/images/index-page-testing.png)
 
-  + Register page lighthouse testing image below
+  + Booking page lighthouse testing image below
 
-![index page lighthouse testing image](assets/images/register-page-testing.png)
-
-  + Sign In page lighthouse testing image below
-
-![index page lighthouse testing image](assets/images/signin-page-testing.png)
+![index page lighthouse testing image](assets/images/booking-page-testing.png)
 
   + Telephone GP booking page lighthouse testing image below
 
