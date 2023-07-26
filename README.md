@@ -171,18 +171,26 @@ As a user I was able to undersatnd how to use the site and what is the purpose o
 
   + Booking page lighthouse testing image below
 
-![index page lighthouse testing image](assets/images/booking-page-testing.png)
+![Booking page lighthouse testing image](assets/images/booking-page-testing.png)
 
   + Telephone GP booking page lighthouse testing image below
 
-![index page lighthouse testing image](assets/images/phonegp-page-testing.png)
+![Telephone GP booking page lighthouse testing image](assets/images/phonegp-page-testing.png)
 
   + Video call GP booking page lighthouse testing image below
 
-![index page lighthouse testing image](assets/images/videogp-page-testing.png)
+![videocall GP page lighthouse testing image](assets/images/videogp-page-testing.png)
 
 # Bugs
 Debugging occurred during the process of development and testing as the website was built as testing was done constantly as errors "bugs" were detected during testing I would use dev tools to see and test what would solve the particular error that occurred and fix the errors as they occurred.
+For Example
+there is some horizontal scrolling present on the site.so I add following code in css which resolved 
+this issue
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 # Validator Testing
 * Test Validators
@@ -199,7 +207,7 @@ Debugging occurred during the process of development and testing as the website 
 + From the source dropdown select main branch and press save.
 + The site has now been deployed, please note that this process may take a few minutes before the site goes live.
 + Go to GitHub Page and linking the main root to Master Branch
-Once this is done the page will automatically creat the ribbon with the http host page name that is been hosted by GitHub. The live link can be found here:(https://github.com/Shazi-dani/GP-Online.git)
+Once this is done the page will automatically creat the ribbon with the http host page name that is been hosted by GitHub. The live link can be found here:(https://shazi-dani.github.io/GP-Online/)
 
 # Clone Project
 * Cloning of Project was made possible by GitHub
