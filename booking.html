@@ -13,15 +13,29 @@
 </head>
 <body>
 <!--header start here -->
-<div class="register-responsive">
-    <header>
+<header>
     <a href="index.html"><h1 id="logo"> GP Online </h1></a>
-    <nav>
-            <ul id="menu-register">
-                <li class="font-weight-bold font-size"><a href="index.html">Home</a></li> 
-            </ul>
-        </nav>
-    </header>
+<nav>
+        <ul id="menu-videogp" class="font-weight-bold font-size">
+            <li><a href="index.html#book-gp" aria-label="Go to booking section">Book Consultation</a></li>
+            <li><a href="index.html#contact" aria-label="Go to contact section">Contact</a></li>
+            <li><a href="index.html#how-its-work" aria-label="Go to How its work section">How its Work</a></li>
+            <li><a href="index.html">Home</a></li> 
+        </ul>
+    </nav>
+     <!--tablet dropdown -->
+     <div class="dropdown">
+        <button class="dropbtn"><img src="assets/images/nev-image.jpg" alt="dropdown button image"></button>
+        <div class="dropdown-content font-weight-bold font-size">
+            <a href="index.html">Home</a>
+            <a href="index.html#how-its-work" aria-label="Go to How its work section">How its Work</a>
+            <a href="index.html#contact" aria-label="Go to Contact section" id="laptop-contact">Contact</a>
+            <a href="index.html#phone-contact" aria-label="Go to Contact section" id="ph-contact">Contact</a>
+            <a href="index.html#book-gp" aria-label="Go to booking section">Book Consultation</a>
+        
+        </div>
+    </div>
+</header>
     <div class="spacer"></div>
 <!--registration form starts here-->
 <form id="register-form" onsubmit="openPopup()" method="dialog">
